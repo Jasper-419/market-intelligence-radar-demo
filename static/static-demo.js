@@ -2,7 +2,7 @@
 function renderSnapshotUpdates(data){
  let sources=data.sources.filter(s=>s.id.startsWith('skincare-disclosure-'));
  if(state.materialCompany)sources=sources.filter(s=>s.company_id===state.materialCompany);
- if(state.q){const q=state.q.toLowerCase();sources=sources.filter(s=>(s.title+' '+data.evidence.filter(e=>e.source_id===s.id).map(e=>e.text).join(' ')).toLowerCase().includes(q));}
+ if(state.q){const q=state.q.toLowerCase();sources=sources.filter(s=>(s.title+' '+data.evidence.filter(e=>e.source_id===s.id).map(e=>e.title+' '+e.text).join(' ')).toLowerCase().includes(q));}
  sources.sort((a,b)=>(b.published_at||'').localeCompare(a.published_at||''));
  return `<div class="updates-page">${title('资料与证据','公开披露的已核对快照 · 统计期、披露日和采集日分别展示',`<a class="button" href="data/case.json" download="行业机会-证据快照.json">导出证据</a>`)}
  <div class="demo-worker"><span class="status">数据截至 ${esc(data.snapshot.reviewed_at)}</span><p>此版用于面试演示；企业事实有原文出处，机会建议属于待业务确认的研究假设。</p></div>
