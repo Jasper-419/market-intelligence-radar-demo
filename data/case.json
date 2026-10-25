@@ -1,0 +1,646 @@
+{
+  "id": "skincare",
+  "version": "daily-596dbccabbf2",
+  "title": "国货功效护肤 · 机会案例",
+  "finding": "贝泰妮：优先核对；珀莱雅：优先研究；丸美生物：拆分品牌研究。",
+  "conclusion": "从三家企业经营变化筛选研究切口，再由业务确认腾讯客户覆盖、经营目标与可执行方案。",
+  "scope": "国内护肤品牌的广告拓客研究；定向选取三家样本，不代表全行业。财务与渠道数据按集团口径展示，跟进时再拆到护肤品牌。",
+  "sources": [
+    {
+      "id": "skincare-disclosure-1225496527-8bfc12f64160",
+      "title": "珀莱雅化妆品股份有限公司2026年半年度报告",
+      "publisher": "巨潮资讯 · 上市公司披露",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-08-25/1225496527.PDF",
+      "published_at": "2026-08-25",
+      "period": "2026年1—6月",
+      "period_end": "2026-06-30",
+      "role": "financial",
+      "sha256": "8bfc12f6416039cd8062f32246641c1c569800b858904deb8638aedc58a2211c",
+      "fetched_at": "2026-10-25T07:07:00+00:00",
+      "pages": 209,
+      "distribution": "法定披露平台原件",
+      "note": "PDF 文本层；可比财务表单独校验；正文图片和复杂表格未作完整性验收。",
+      "document_version": 1,
+      "review_reason": "",
+      "company_id": "proya"
+    },
+    {
+      "id": "skincare-disclosure-1225498131-3a0c289eec95",
+      "title": "2026年半年度报告",
+      "publisher": "巨潮资讯 · 上市公司披露",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-08-25/1225498131.PDF",
+      "published_at": "2026-08-25",
+      "period": "2026年1—6月",
+      "period_end": "2026-06-30",
+      "role": "financial",
+      "sha256": "3a0c289eec9508d6c4061914c28511375bd03c8e89694ecf26e6aaba31f29591",
+      "fetched_at": "2026-10-25T07:06:17+00:00",
+      "pages": 153,
+      "distribution": "法定披露平台原件",
+      "note": "PDF 文本层；可比财务表单独校验；正文图片和复杂表格未作完整性验收。",
+      "document_version": 1,
+      "review_reason": "",
+      "company_id": "botanee"
+    },
+    {
+      "id": "skincare-disclosure-1225530696-d3f6f94e437e",
+      "title": "广东丸美生物技术股份有限公司2026年半年度报告",
+      "publisher": "巨潮资讯 · 上市公司披露",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225530696.PDF",
+      "published_at": "2026-08-29",
+      "period": "2026年1—6月",
+      "period_end": "2026-06-30",
+      "role": "financial",
+      "sha256": "d3f6f94e437e790e93151cedf5b71af1d5bfaaf908e5b1f9a53953b72acfc8ac",
+      "fetched_at": "2026-10-25T07:06:38+00:00",
+      "pages": 162,
+      "distribution": "法定披露平台原件",
+      "note": "PDF 文本层；可比财务表单独校验；正文图片和复杂表格未作完整性验收。",
+      "document_version": 1,
+      "review_reason": "",
+      "company_id": "marubi"
+    },
+    {
+      "id": "skincare-disclosure-1225592341-7302be1ce3c1",
+      "title": "2026年9月投资者关系活动记录表",
+      "publisher": "巨潮资讯 · 上市公司披露",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-01/1225592341.PDF",
+      "published_at": "2026-10-01",
+      "period": "投资者交流；经营统计期按原文",
+      "period_end": null,
+      "role": "relation",
+      "sha256": "7302be1ce3c167a36b63ddc2593568c0846fec97a9cbf23d56c544ab5d159ebd",
+      "fetched_at": "2026-10-25T07:06:22+00:00",
+      "pages": 2,
+      "distribution": "法定披露平台原件",
+      "note": "PDF 文本层；可比财务表单独校验；正文图片和复杂表格未作完整性验收。",
+      "document_version": 1,
+      "review_reason": "",
+      "company_id": "botanee"
+    },
+    {
+      "id": "tencent-capability",
+      "title": "腾讯广告：微信小店直购广告投放指引",
+      "publisher": "腾讯广告",
+      "url": "https://training.tencentads.com/uploads/202505/lZTqucgB_bYZPU4.pdf",
+      "published_at": null,
+      "period": "历史产品能力材料；准确发布日期未标明",
+      "period_end": null,
+      "role": "capability",
+      "sha256": "e5ab8d21811a34feb2a7345572b27a5f67c97b8874c6cfe670547560acf38064",
+      "fetched_at": "2026-10-25T06:33:28+00:00",
+      "pages": 25,
+      "distribution": "腾讯广告官方培训域名",
+      "note": "仅第 13 页作为版位与落地页能力背景。URL 含 202505 不用作发布日期；不作为近期新政。使用前仍需核对当前后台和类目资质。"
+    },
+    {
+      "id": "skincare-disclosure-1225496511-747bf6498bd3",
+      "title": "珀莱雅化妆品股份有限公司关于2026年第二季度主要经营数据的公告",
+      "publisher": "巨潮资讯 · 上市公司披露",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-08-25/1225496511.PDF",
+      "published_at": "2026-08-25",
+      "period": "2026年4—6月（单季）",
+      "period_end": "2026-06-30",
+      "role": "operating",
+      "sha256": "747bf6498bd3052514b97d3238736ed3e8a070d88e05dc5c8984c5439c86510b",
+      "fetched_at": "2026-10-25T07:07:05+00:00",
+      "pages": 3,
+      "distribution": "法定披露平台原件",
+      "note": "PDF 文本层；可比财务表单独校验；正文图片和复杂表格未作完整性验收。",
+      "document_version": 1,
+      "review_reason": "",
+      "company_id": "proya"
+    },
+    {
+      "id": "skincare-disclosure-1225530772-e27788eebf35",
+      "title": "广东丸美生物技术股份有限公司关于2026年第二季度主要经营数据的公告",
+      "publisher": "巨潮资讯 · 上市公司披露",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225530772.PDF",
+      "published_at": "2026-08-29",
+      "period": "2026年4—6月（单季）",
+      "period_end": "2026-06-30",
+      "role": "operating",
+      "sha256": "e27788eebf356e5e027319d86820e0ff09a01063592b25bd1e3f38f6b05515ee",
+      "fetched_at": "2026-10-25T07:06:43+00:00",
+      "pages": 2,
+      "distribution": "法定披露平台原件",
+      "note": "PDF 文本层；可比财务表单独校验；正文图片和复杂表格未作完整性验收。",
+      "document_version": 1,
+      "review_reason": "",
+      "company_id": "marubi"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "case-skincare-tencent-capability",
+      "source_id": "tencent-capability",
+      "title": "腾讯广告：小程序落地页能力背景",
+      "page": 13,
+      "text": "腾讯广告官方培训材料列出微信视频号、微信朋友圈、微信公众号与小程序等版位；微信小店直购广告列有微信小店商品详情页、官方落地页、微信小程序三类落地页。",
+      "scope": "历史产品说明，仅用于提出能力适配问题；不证明当前所有账户、护肤商品都可投，也不承诺归因、增量或投放效果。",
+      "company": "",
+      "unit": "见原件"
+    },
+    {
+      "id": "skincare-disclosure-1225498131-3a0c289eec95-finance",
+      "source_id": "skincare-disclosure-1225498131-3a0c289eec95",
+      "company": "贝泰妮",
+      "page": 61,
+      "title": "贝泰妮 · 2026年1—6月合并财务表",
+      "unit": "人民币元 / %",
+      "quality": "validated_table",
+      "text": "营业收入：本期 2,591,640,131.46 元；上年同期 2,371,842,584.76 元；同比 +9.27%。销售费用：本期 1,309,536,678.95 元；上年同期 1,284,785,352.69 元；同比 +1.93%。",
+      "scope": "合并利润表；人民币单位、本期/上年同期两列表头与金额校验。同比由原值计算。 集团口径，销售费用不等同广告费。"
+    },
+    {
+      "id": "skincare-disclosure-1225498131-3a0c289eec95-signal-1",
+      "source_id": "skincare-disclosure-1225498131-3a0c289eec95",
+      "company": "贝泰妮",
+      "page": 16,
+      "title": "贝泰妮 · 微信经营摘录",
+      "quality": "text_excerpt",
+      "text": "或通过线下推广的形式引导消费者在公司依托腾讯生态自主搭建的OMO模式下“薇诺娜专柜服务平台”进行产品销售。",
+      "scope": "原件文本层摘录；集团/全品牌或原文所述品牌口径；图像未作完整性验收。"
+    },
+    {
+      "id": "skincare-disclosure-1225498131-3a0c289eec95-signal-2",
+      "source_id": "skincare-disclosure-1225498131-3a0c289eec95",
+      "company": "贝泰妮",
+      "page": 27,
+      "title": "贝泰妮 · 微信经营摘录",
+      "quality": "text_excerpt",
+      "text": "私域流量以腾讯生态下自建的OMO渠道的薇诺娜专柜服务平台为代表；",
+      "scope": "原件文本层摘录；集团/全品牌或原文所述品牌口径；图像未作完整性验收。"
+    },
+    {
+      "id": "skincare-disclosure-1225498131-3a0c289eec95-signal-3",
+      "source_id": "skincare-disclosure-1225498131-3a0c289eec95",
+      "company": "贝泰妮",
+      "page": 24,
+      "title": "贝泰妮 · 渠道经营摘录",
+      "quality": "validated_channel_table",
+      "text": "2026年1—6月，OMO 自营（线上及线下）收入 15,494.53 万元，上年同期 19,066.87 万元，同比 -18.74%。",
+      "scope": "集团全品牌渠道表；原表单位万元、当期/同期和同比校验。不是广告消耗或单品牌营收。"
+    },
+    {
+      "id": "skincare-disclosure-1225498131-3a0c289eec95-signal-4",
+      "source_id": "skincare-disclosure-1225498131-3a0c289eec95",
+      "company": "贝泰妮",
+      "page": 24,
+      "title": "贝泰妮 · 渠道经营摘录",
+      "quality": "text_excerpt",
+      "text": "云南贝泰妮生物科技集团股份有限公司2026年半年度报告全文24单位：万元渠道销售模式2026年半年度2025年半年度同比增减金额占主营业务收入比例金额占主营业务收入比例线上渠道销售自营162,336.7563.04%132,530.2256.21%22.49%经销、代销39,359.8115.29%41,781.4917.72%-5.80%小计201,696.5678.33%174,311.7173.93%15.71%OMO渠道销售自营（线上和线下）15,494.536.02%19,066.878.08%-18.74%线下渠道销售经销、代销40,287.0815.65%42,429.0517.99%-5.05%合计自营177,831.2869.06%151,597.0964.29%17.31%经销、代销79,646.8930.94%84,210.5435.71%-5.42%注：报告期内，公司根据业务发展情况按同口径对2025年半年度的同期对比数进行调整。",
+      "scope": "原件文本层摘录；集团/全品牌或原文所述品牌口径；图像未作完整性验收。"
+    },
+    {
+      "id": "skincare-disclosure-1225592341-7302be1ce3c1-signal-1",
+      "source_id": "skincare-disclosure-1225592341-7302be1ce3c1",
+      "company": "贝泰妮",
+      "page": 2,
+      "title": "贝泰妮 · 微信经营摘录",
+      "quality": "text_excerpt",
+      "text": "私域流量以腾讯生态下自建的OMO渠道的薇诺娜专柜服务平台为代表；",
+      "scope": "原件文本层摘录；集团/全品牌或原文所述品牌口径；图像未作完整性验收。"
+    },
+    {
+      "id": "skincare-disclosure-1225496527-8bfc12f64160-finance",
+      "source_id": "skincare-disclosure-1225496527-8bfc12f64160",
+      "company": "珀莱雅",
+      "page": 68,
+      "title": "珀莱雅 · 2026年1—6月合并财务表",
+      "unit": "人民币元 / %",
+      "quality": "validated_table",
+      "text": "营业收入：本期 5,374,800,725.36 元；上年同期 5,361,890,476.66 元；同比 +0.24%。销售费用：本期 2,855,752,719.23 元；上年同期 2,658,870,093.11 元；同比 +7.40%。",
+      "scope": "合并利润表；人民币单位、本期/上年同期两列表头与金额校验。同比由原值计算。 集团口径，销售费用不等同广告费。"
+    },
+    {
+      "id": "skincare-disclosure-1225496527-8bfc12f64160-signal-1",
+      "source_id": "skincare-disclosure-1225496527-8bfc12f64160",
+      "company": "珀莱雅",
+      "page": 14,
+      "title": "珀莱雅 · 渠道经营摘录",
+      "quality": "text_excerpt",
+      "text": "2026年618活动期间，悦芙媞品牌在小红书渠道的成交金额同比增长833%，在抖音自营渠道的成交金额同比增长83%，在天猫达播渠道的成交金额同比增长82%。",
+      "scope": "原件文本层摘录；集团/全品牌或原文所述品牌口径；图像未作完整性验收。"
+    },
+    {
+      "id": "skincare-disclosure-1225496527-8bfc12f64160-signal-2",
+      "source_id": "skincare-disclosure-1225496527-8bfc12f64160",
+      "company": "珀莱雅",
+      "page": 17,
+      "title": "珀莱雅 · 渠道经营摘录",
+      "quality": "text_excerpt",
+      "text": "2026年618活动期间，原色波塔品牌在全渠道的成交金额同比增长170%+，在天猫平台的成交金额同比增长150%，在抖音平台的成交金额同比增长169%。",
+      "scope": "原件文本层摘录；集团/全品牌或原文所述品牌口径；图像未作完整性验收。"
+    },
+    {
+      "id": "skincare-disclosure-1225496527-8bfc12f64160-signal-3",
+      "source_id": "skincare-disclosure-1225496527-8bfc12f64160",
+      "company": "珀莱雅",
+      "page": 23,
+      "title": "珀莱雅 · 营销投入摘录",
+      "quality": "text_excerpt",
+      "text": "销售费用同比增加1.97亿元，增长7.40%，主要系本期的形象宣传推广费同比增加1.75亿元，同比增长7.40%。",
+      "scope": "原件文本层摘录；集团/全品牌或原文所述品牌口径；图像未作完整性验收。"
+    },
+    {
+      "id": "skincare-disclosure-1225496511-747bf6498bd3-signal-1",
+      "source_id": "skincare-disclosure-1225496511-747bf6498bd3",
+      "company": "珀莱雅",
+      "page": 2,
+      "title": "珀莱雅 · 价格与产品结构摘录",
+      "quality": "text_excerpt",
+      "text": "护肤类（含洁肤）产品2026年第二季度平均售价同比、环比下降原因：主要系单价较低的小容量精华类产品销售占比增加所致。",
+      "scope": "原件文本层摘录；集团/全品牌或原文所述品牌口径；图像未作完整性验收。"
+    },
+    {
+      "id": "skincare-disclosure-1225496511-747bf6498bd3-signal-2",
+      "source_id": "skincare-disclosure-1225496511-747bf6498bd3",
+      "company": "珀莱雅",
+      "page": 2,
+      "title": "珀莱雅 · 价格与产品结构摘录",
+      "quality": "text_excerpt",
+      "text": "美容彩妆类产品2026年第二季度平均售价同比下降、环比上涨原因：同比下降主要系美容彩妆类品牌原色波塔销售占比增加，其售价低于美容彩妆类产品平均售价；",
+      "scope": "原件文本层摘录；集团/全品牌或原文所述品牌口径；图像未作完整性验收。"
+    },
+    {
+      "id": "skincare-disclosure-1225530696-d3f6f94e437e-finance",
+      "source_id": "skincare-disclosure-1225530696-d3f6f94e437e",
+      "company": "丸美生物",
+      "page": 41,
+      "title": "丸美生物 · 2026年1—6月合并财务表",
+      "unit": "人民币元 / %",
+      "quality": "validated_table",
+      "text": "营业收入：本期 1,663,082,248.33 元；上年同期 1,764,646,729.20 元；同比 -5.76%。销售费用：本期 975,340,186.42 元；上年同期 999,196,374.25 元；同比 -2.39%。",
+      "scope": "合并利润表；人民币单位、本期/上年同期两列表头与金额校验。同比由原值计算。 集团口径，销售费用不等同广告费。"
+    },
+    {
+      "id": "skincare-disclosure-1225530696-d3f6f94e437e-signal-1",
+      "source_id": "skincare-disclosure-1225530696-d3f6f94e437e",
+      "company": "丸美生物",
+      "page": 8,
+      "title": "丸美生物 · 渠道经营摘录",
+      "quality": "text_excerpt",
+      "text": "报告期内公司新增重要非主营业务的说明□适用√不适用二、经营情况的讨论与分析报告期内，公司实现营业收入16.63亿元，同比下降5.76%，其中丸美品牌实现营业收入12.70亿元，同比上升1.97%，PL恋火品牌实现营业收入3.88亿元，同比下降24.78%，主要是公司调整线上业务结构，达播收入同比下降所致；",
+      "scope": "原件文本层摘录；集团/全品牌或原文所述品牌口径；图像未作完整性验收。"
+    },
+    {
+      "id": "skincare-disclosure-1225530696-d3f6f94e437e-signal-2",
+      "source_id": "skincare-disclosure-1225530696-d3f6f94e437e",
+      "company": "丸美生物",
+      "page": 10,
+      "title": "丸美生物 · 渠道经营摘录",
+      "quality": "text_excerpt",
+      "text": "三、渠道建设：多元并进、协同发展2026年上半年，公司线上渠道实现营业收入14.51亿元，占比87.48%，同比下降7.33%，主要是丸美及恋火品牌线上达播业务收入下降所致；",
+      "scope": "原件文本层摘录；集团/全品牌或原文所述品牌口径；图像未作完整性验收。"
+    }
+  ],
+  "companies": [
+    {
+      "id": "botanee",
+      "name": "贝泰妮",
+      "legal_name": "云南贝泰妮生物科技集团股份有限公司",
+      "ticker": "300957.SZ",
+      "brand": "薇诺娜 · 敏感肌护理",
+      "rank": 1,
+      "decision": "优先核对",
+      "reason": "公开文件有微信经营依据，先核对转化与复购空间。",
+      "revenue": [
+        2591640131.46,
+        2371842584.76
+      ],
+      "selling": [
+        1309536678.95,
+        1284785352.69
+      ],
+      "revenue_yoy": 9.27,
+      "selling_yoy": 1.93,
+      "financial_evidence": "skincare-disclosure-1225498131-3a0c289eec95-finance",
+      "scope": "薇诺娜是跟进品牌；财务、抖音和 OMO 数值为集团全品牌口径，不能直接拆为薇诺娜预算。",
+      "event_title": "2026年1—6月财报与渠道变化",
+      "event": "2026年1—6月营收同比 +9.27%，销售费用同比 +1.93%。 经营披露：2026年1—6月，OMO 自营（线上及线下）收入 15,494.53 万元，上年同期 19,066.87 万元，同比 -18.74%。",
+      "event_evidence": [
+        "skincare-disclosure-1225498131-3a0c289eec95-finance",
+        "skincare-disclosure-1225498131-3a0c289eec95-signal-3"
+      ],
+      "impact": "公司已有微信经营线索，可从既有渠道的转化与复购问题展开研究；公开文件没有证明存在腾讯广告增量预算。",
+      "hypothesis": "若现有微信经营确有获客、成交或复购缺口，可研究腾讯广告触达与小程序承接的衔接方案。",
+      "tencent_evidence": [
+        "skincare-disclosure-1225592341-7302be1ce3c1-signal-1",
+        "case-skincare-tencent-capability"
+      ],
+      "counter": "集团数值包含多个品牌及业务；销售费用不等同广告费，渠道营收不等同媒体消耗。腾讯客户关系、准入与增量预算尚未确认。",
+      "ask": "与全域电商 / 私域负责人核对微信经营目标、有效新客、成交与复购，并确认腾讯已有覆盖和归因条件。",
+      "actions": [
+        {
+          "id": "scope",
+          "title": "确认这期变化的原因",
+          "owner": "行业研究 / 品牌电商",
+          "detail": "以 2026年1—6月 的原件为基线，拆分护肤品牌、渠道、销量、客单和供给因素；核对披露的渠道变化是否延续。",
+          "deliverable": "品牌与渠道口径表、原因及反证"
+        },
+        {
+          "id": "fit",
+          "title": "核对腾讯已有覆盖与适配",
+          "owner": "渠道经理 / 全域运营",
+          "detail": "与全域电商 / 私域负责人核对微信经营目标、有效新客、成交与复购，并确认腾讯已有覆盖和归因条件。",
+          "deliverable": "客户覆盖、经营目标、承接和归因条件"
+        },
+        {
+          "id": "pilot",
+          "title": "条件成立后再提方案",
+          "owner": "客户运营 / 品牌负责人",
+          "detail": "只围绕已确认的问题讨论一条产品线和承接路径，先约定基线、对照、指标及暂停条件。预算由企业确认。",
+          "deliverable": "继续 / 暂缓结论及一页跟进提纲"
+        }
+      ],
+      "proceed": "问题、增长意愿、承接、归因与预算均明确后，再交客户团队评估。",
+      "stop": "若主动收缩、供给受限、缺少经营目标或无法衡量转化，则保留观察，不建议加投。",
+      "metrics": [
+        "有效新客成本（先约定新客定义）",
+        "同目标、同窗口的成交转化",
+        "经授权的复购与增量对照"
+      ],
+      "finance_period": "2026年1—6月",
+      "finance_end": "2026-06-30",
+      "finance_quality": "合并表自动校验",
+      "latest_signals": [
+        {
+          "kind": "wechat",
+          "page": 2,
+          "quote": "私域流量以腾讯生态下自建的OMO渠道的薇诺娜专柜服务平台为代表；",
+          "brands": [],
+          "quality": "text_excerpt",
+          "scope": "原件文本层摘录；集团/全品牌或原文所述品牌口径；图像未作完整性验收。",
+          "evidence_id": "skincare-disclosure-1225592341-7302be1ce3c1-signal-1",
+          "source_id": "skincare-disclosure-1225592341-7302be1ce3c1",
+          "published_at": "2026-10-01",
+          "period_end": null,
+          "role": "relation"
+        },
+        {
+          "kind": "channel",
+          "page": 24,
+          "metric": "OMO 自营（线上及线下）",
+          "value": -18.74,
+          "quote": "2026年1—6月，OMO 自营（线上及线下）收入 15,494.53 万元，上年同期 19,066.87 万元，同比 -18.74%。",
+          "quality": "validated_channel_table",
+          "scope": "集团全品牌渠道表；原表单位万元、当期/同期和同比校验。不是广告消耗或单品牌营收。",
+          "evidence_id": "skincare-disclosure-1225498131-3a0c289eec95-signal-3",
+          "source_id": "skincare-disclosure-1225498131-3a0c289eec95",
+          "published_at": "2026-08-25",
+          "period_end": "2026-06-30",
+          "role": "financial"
+        }
+      ],
+      "collection": {
+        "checked_at": "2026-10-25T15:06:22+08:00",
+        "status": "success"
+      },
+      "research_order": 1,
+      "rule": {
+        "id": "wechat",
+        "label": "有微信经营出处",
+        "evidence_ids": [
+          "skincare-disclosure-1225498131-3a0c289eec95-finance",
+          "skincare-disclosure-1225498131-3a0c289eec95-signal-3",
+          "skincare-disclosure-1225592341-7302be1ce3c1-signal-1"
+        ]
+      }
+    },
+    {
+      "id": "proya",
+      "name": "珀莱雅",
+      "legal_name": "珀莱雅化妆品股份有限公司",
+      "ticker": "603605.SH",
+      "brand": "珀莱雅 · 功效护肤",
+      "rank": 2,
+      "decision": "优先研究",
+      "reason": "销售费用增速高于营收，先问投入目标与转化效率。",
+      "revenue": [
+        5374800725.36,
+        5361890476.66
+      ],
+      "selling": [
+        2855752719.23,
+        2658870093.11
+      ],
+      "revenue_yoy": 0.24,
+      "selling_yoy": 7.4,
+      "financial_evidence": "skincare-disclosure-1225496527-8bfc12f64160-finance",
+      "scope": "上市集团还包括彩妆等品牌；先跟进珀莱雅护肤品牌，不把集团费用分摊为品牌预算。",
+      "event_title": "2026年1—6月财报与渠道变化",
+      "event": "2026年1—6月营收同比 +0.24%，销售费用同比 +7.40%。 经营披露：销售费用同比增加1.97亿元，增长7.40%，主要系本期的形象宣传推广费同比增加1.75亿元，同比增长7.40%。",
+      "event_evidence": [
+        "skincare-disclosure-1225496527-8bfc12f64160-finance",
+        "skincare-disclosure-1225496527-8bfc12f64160-signal-3"
+      ],
+      "impact": "投入与收入变化不一致，值得拆解推广目标、时点和产品结构；费用前置与品牌培育均可能影响同期比较。",
+      "hypothesis": "若确认存在可改善的获客或转化问题，再研究腾讯内容触达与承接能力；先补企业微信经营依据。",
+      "tencent_evidence": [
+        "case-skincare-tencent-capability"
+      ],
+      "counter": "集团数值包含多个品牌及业务；销售费用不等同广告费，渠道营收不等同媒体消耗。腾讯客户关系、准入与增量预算尚未确认。 本期还有产品均价 / 结构变化，需拆分对营收的影响。 当前尚缺可用于本案的微信经营出处。",
+      "ask": "请市场 / 媒介负责人解释费用增量对应的品牌、目标、渠道和时间，再确认是否有增量获客需求。",
+      "actions": [
+        {
+          "id": "scope",
+          "title": "确认这期变化的原因",
+          "owner": "行业研究 / 品牌电商",
+          "detail": "以 2026年1—6月 的原件为基线，拆分护肤品牌、渠道、销量、客单和供给因素；特别核对产品均价与结构变化。",
+          "deliverable": "品牌与渠道口径表、原因及反证"
+        },
+        {
+          "id": "fit",
+          "title": "核对腾讯已有覆盖与适配",
+          "owner": "渠道经理 / 全域运营",
+          "detail": "请市场 / 媒介负责人解释费用增量对应的品牌、目标、渠道和时间，再确认是否有增量获客需求。",
+          "deliverable": "客户覆盖、经营目标、承接和归因条件"
+        },
+        {
+          "id": "pilot",
+          "title": "条件成立后再提方案",
+          "owner": "客户运营 / 品牌负责人",
+          "detail": "只围绕已确认的问题讨论一条产品线和承接路径，先约定基线、对照、指标及暂停条件。预算由企业确认。",
+          "deliverable": "继续 / 暂缓结论及一页跟进提纲"
+        }
+      ],
+      "proceed": "问题、增长意愿、承接、归因与预算均明确后，再交客户团队评估。",
+      "stop": "若主动收缩、供给受限、缺少经营目标或无法衡量转化，则保留观察，不建议加投。",
+      "metrics": [
+        "有效新客成本（先约定新客定义）",
+        "同目标、同窗口的成交转化",
+        "经授权的复购与增量对照"
+      ],
+      "finance_period": "2026年1—6月",
+      "finance_end": "2026-06-30",
+      "finance_quality": "合并表自动校验",
+      "latest_signals": [
+        {
+          "kind": "channel",
+          "page": 14,
+          "quote": "2026年618活动期间，悦芙媞品牌在小红书渠道的成交金额同比增长833%，在抖音自营渠道的成交金额同比增长83%，在天猫达播渠道的成交金额同比增长82%。",
+          "brands": [],
+          "quality": "text_excerpt",
+          "scope": "原件文本层摘录；集团/全品牌或原文所述品牌口径；图像未作完整性验收。",
+          "evidence_id": "skincare-disclosure-1225496527-8bfc12f64160-signal-1",
+          "source_id": "skincare-disclosure-1225496527-8bfc12f64160",
+          "published_at": "2026-08-25",
+          "period_end": "2026-06-30",
+          "role": "financial"
+        },
+        {
+          "kind": "marketing",
+          "page": 23,
+          "quote": "销售费用同比增加1.97亿元，增长7.40%，主要系本期的形象宣传推广费同比增加1.75亿元，同比增长7.40%。",
+          "brands": [],
+          "quality": "text_excerpt",
+          "scope": "原件文本层摘录；集团/全品牌或原文所述品牌口径；图像未作完整性验收。",
+          "evidence_id": "skincare-disclosure-1225496527-8bfc12f64160-signal-3",
+          "source_id": "skincare-disclosure-1225496527-8bfc12f64160",
+          "published_at": "2026-08-25",
+          "period_end": "2026-06-30",
+          "role": "financial"
+        },
+        {
+          "kind": "pricing",
+          "page": 2,
+          "quote": "护肤类（含洁肤）产品2026年第二季度平均售价同比、环比下降原因：主要系单价较低的小容量精华类产品销售占比增加所致。",
+          "brands": [],
+          "quality": "text_excerpt",
+          "scope": "原件文本层摘录；集团/全品牌或原文所述品牌口径；图像未作完整性验收。",
+          "evidence_id": "skincare-disclosure-1225496511-747bf6498bd3-signal-1",
+          "source_id": "skincare-disclosure-1225496511-747bf6498bd3",
+          "published_at": "2026-08-25",
+          "period_end": "2026-06-30",
+          "role": "operating"
+        }
+      ],
+      "collection": {
+        "checked_at": "2026-10-25T15:07:05+08:00",
+        "status": "success"
+      },
+      "research_order": 2,
+      "rule": {
+        "id": "efficiency",
+        "label": "投入与收入增速分化",
+        "evidence_ids": [
+          "skincare-disclosure-1225496527-8bfc12f64160-finance",
+          "skincare-disclosure-1225496527-8bfc12f64160-signal-3"
+        ]
+      }
+    },
+    {
+      "id": "marubi",
+      "name": "丸美生物",
+      "legal_name": "广东丸美生物技术股份有限公司",
+      "ticker": "603983.SH",
+      "brand": "丸美 · 眼部护理与抗老",
+      "rank": 3,
+      "decision": "拆分品牌研究",
+      "reason": "集团下滑与护肤品牌增长并存，先区分护肤和彩妆。",
+      "revenue": [
+        1663082248.33,
+        1764646729.2
+      ],
+      "selling": [
+        975340186.42,
+        999196374.25
+      ],
+      "revenue_yoy": -5.76,
+      "selling_yoy": -2.39,
+      "financial_evidence": "skincare-disclosure-1225530696-d3f6f94e437e-finance",
+      "scope": "集团含丸美护肤与 PL 恋火彩妆；线上渠道数值为集团主营业务，会员变化仅为丸美天猫。",
+      "event_title": "2026年1—6月财报与渠道变化",
+      "event": "2026年1—6月营收同比 -5.76%，销售费用同比 -2.39%。 经营披露：报告期内，公司实现营业收入16.63亿元，同比下降5.76%，其中丸美品牌实现营业收入12.70亿元，同比上升1.97%，PL恋火品牌实现营业收入3.88亿元，同比下降24.78%，主要是公司调整线上业务结构，达播收入同…",
+      "event_evidence": [
+        "skincare-disclosure-1225530696-d3f6f94e437e-finance",
+        "skincare-disclosure-1225530696-d3f6f94e437e-signal-1"
+      ],
+      "impact": "集团收入下滑，但原文披露 丸美品牌营收同比 +1.97%。集团走势不能直接替代护肤品牌判断，应拆分品牌与渠道研究。",
+      "hypothesis": "若护肤品牌有扩客或复购目标，再核对腾讯覆盖与微信承接；不能用集团或彩妆的收缩推断护肤品牌预算。",
+      "tencent_evidence": [
+        "case-skincare-tencent-capability"
+      ],
+      "counter": "集团数值包含多个品牌及业务；销售费用不等同广告费，渠道营收不等同媒体消耗。腾讯客户关系、准入与增量预算尚未确认。 当前尚缺可用于本案的微信经营出处。",
+      "ask": "请品牌电商区分护肤和彩妆的收入、达播 / 自播与获客目标，先确认护肤品牌是否有继续增长的经营计划。",
+      "actions": [
+        {
+          "id": "scope",
+          "title": "确认这期变化的原因",
+          "owner": "行业研究 / 品牌电商",
+          "detail": "以 2026年1—6月 的原件为基线，拆分护肤品牌、渠道、销量、客单和供给因素；核对披露的渠道变化是否延续。",
+          "deliverable": "品牌与渠道口径表、原因及反证"
+        },
+        {
+          "id": "fit",
+          "title": "核对腾讯已有覆盖与适配",
+          "owner": "渠道经理 / 全域运营",
+          "detail": "请品牌电商区分护肤和彩妆的收入、达播 / 自播与获客目标，先确认护肤品牌是否有继续增长的经营计划。",
+          "deliverable": "客户覆盖、经营目标、承接和归因条件"
+        },
+        {
+          "id": "pilot",
+          "title": "条件成立后再提方案",
+          "owner": "客户运营 / 品牌负责人",
+          "detail": "只围绕已确认的问题讨论一条产品线和承接路径，先约定基线、对照、指标及暂停条件。预算由企业确认。",
+          "deliverable": "继续 / 暂缓结论及一页跟进提纲"
+        }
+      ],
+      "proceed": "问题、增长意愿、承接、归因与预算均明确后，再交客户团队评估。",
+      "stop": "若主动收缩、供给受限、缺少经营目标或无法衡量转化，则保留观察，不建议加投。",
+      "metrics": [
+        "有效新客成本（先约定新客定义）",
+        "同目标、同窗口的成交转化",
+        "经授权的复购与增量对照"
+      ],
+      "finance_period": "2026年1—6月",
+      "finance_end": "2026-06-30",
+      "finance_quality": "合并表自动校验",
+      "latest_signals": [
+        {
+          "kind": "channel",
+          "page": 8,
+          "quote": "报告期内公司新增重要非主营业务的说明□适用√不适用二、经营情况的讨论与分析报告期内，公司实现营业收入16.63亿元，同比下降5.76%，其中丸美品牌实现营业收入12.70亿元，同比上升1.97%，PL恋火品牌实现营业收入3.88亿元，同比下降24.78%，主要是公司调整线上业务结构，达播收入同比下降所致；",
+          "brands": [
+            {
+              "brand": "丸美",
+              "revenue_100m": 12.7,
+              "revenue_yoy": 1.97
+            }
+          ],
+          "quality": "text_excerpt",
+          "scope": "原件文本层摘录；集团/全品牌或原文所述品牌口径；图像未作完整性验收。",
+          "evidence_id": "skincare-disclosure-1225530696-d3f6f94e437e-signal-1",
+          "source_id": "skincare-disclosure-1225530696-d3f6f94e437e",
+          "published_at": "2026-08-29",
+          "period_end": "2026-06-30",
+          "role": "financial"
+        }
+      ],
+      "collection": {
+        "checked_at": "2026-10-25T15:06:43+08:00",
+        "status": "success"
+      },
+      "research_order": 2,
+      "rule": {
+        "id": "brand_split",
+        "label": "集团与护肤品牌方向不同",
+        "evidence_ids": [
+          "skincare-disclosure-1225530696-d3f6f94e437e-finance",
+          "skincare-disclosure-1225530696-d3f6f94e437e-signal-1"
+        ]
+      }
+    }
+  ],
+  "method": "演示规则：优先核对有微信经营出处的企业；销售费用增速高于营收至少 3 个百分点时研究投入与转化；集团与品牌分化时先拆品牌；收缩或关键资料缺失时先诊断 / 补证。阈值用于研究触发，不是预算或收入评分。",
+  "headline": "贝泰妮 · 优先核对",
+  "baseline_reviewed_at": "2026-10-25",
+  "snapshot": {
+    "mode": "snapshot",
+    "reviewed_at": "2026-10-25",
+    "exported_at": "2026-10-25T17:10:40+08:00",
+    "scheduled_collection": false
+  },
+  "freshness": "当前为截至 2026-10-25 核对的公开资料快照；各企业显示真实财报统计期，不代表实时经营或投放数据。"
+}
