@@ -2,21 +2,21 @@
 function renderSolution(data){
  const a=data.automatic||{},done=(a.companies||[]).filter(c=>c.schedule?.last_success).length,files=data.sources.filter(s=>s.id.startsWith('skincare-disclosure-')).length;
  const steps=[
-  ['发现','按企业与行业筛选官方公开来源，发现财报、经营数据和渠道动态。'],
+  ['发现','沿竞媒规则与扶持、行业统计与企业财报两条主线，筛选国内公开来源。'],
   ['采集','遵守 robots 与限速，保存公开原件、真实披露日期和文件指纹。'],
-  ['处理','清洗去重，校验主体、统计期与单位；为财务和渠道线索分类。'],
+  ['处理','清洗去重，校验主体、统计期与单位；分别核对政策执行期、正文与待补附件。'],
   ['研判','识别经营变化，关联原文证据，形成有条件的行业机会与腾讯相关假设。'],
   ['跟进','对应企业、核对问题和负责人角色，输出跟进提纲与推进 / 暂缓条件。']
  ];
  return `<div class="solution-page">
- ${title('市场情报自动化采集雷达产品','智能产品市场研究 · 竞品分析、功能拆解与应用场景落地',`<button class="button primary" data-view="case">直接看解决方案 →</button>`)}
+ ${title('市场情报自动化采集雷达产品','竞媒规则与扶持 · 行业变化与企业财报 · 证据到业务动作',`<button class="button primary" data-view="opportunities">直接看解决方案 →</button>`)}
  <section class="solution-question"><span class="case-caption">我们要回答的问题</span><h2>腾讯广告应该先关注谁，依据是什么？</h2><p>把外部公开消息整理成可追溯的行业与企业线索，帮助业务决定先研究谁、问什么、是否值得继续。</p></section>
  <div class="solution-split">
-  <section class="panel"><div class="panel-head"><h2>项目研究目标</h2></div><div class="solution-body"><p>围绕市场情报自动化采集雷达产品，开展竞品分析、功能拆解与应用场景落地研究，跟踪行业趋势、识别市场机会。</p><small>业务场景：为腾讯广告渠道经理与服务商提供行业判断和企业跟进线索。</small></div></section>
-  <section class="panel"><div class="panel-head"><h2>产品实现链路</h2></div><div class="solution-body"><p>公开信息采集 → 清洗去重 → 分类标签 → 变化识别 → 证据关联 → 机会判断与跟进建议。</p><small>本 Demo 以三家国货功效护肤企业演示证据链与跟进动作；线上展示已核对的数据快照。</small></div></section>
+  <section class="panel"><div class="panel-head"><h2>项目研究目标</h2></div><div class="solution-body"><p>沿两个方向补充外部视角：竞媒投放规则与扶持方向，以及行业统计、研究报告和企业财报变化。把公开事实转成可追溯的行业线索、腾讯相关假设和企业跟进动作。</p><small>业务场景：为腾讯广告渠道经理与服务商提供行业判断和企业跟进线索。</small></div></section>
+  <section class="panel"><div class="panel-head"><h2>产品实现链路</h2></div><div class="solution-body"><p>公开信息采集 → 清洗去重 → 分类标签 → 变化识别 → 证据关联 → 机会判断与跟进建议。</p><small>行业变化、竞媒政策与三家国货功效护肤企业案例已连接；线上展示已核对快照，未启用实时采集或模型。</small></div></section>
  </div>
- <section class="panel solution-flow"><div class="panel-head"><div><h2>从来源到业务动作</h2><p>公开披露 → 原件与字段 → 证据链 → 企业跟进</p></div><button class="text-button" data-view="updates">查看资料与出处 →</button></div><ol>${steps.map(([name,detail],i)=>`<li><span>0${i+1}${i<4?' →':''}</span><h3>${name}</h3><p>${detail}</p></li>`).join('')}</ol></section>
- <section class="solution-proof"><div><strong>${STATIC_VIEW?data.companies.length:done}${STATIC_VIEW?'':'/3'}</strong><span>家企业形成完整研究案例</span></div><div><strong>${files}</strong><span>份公开披露 · 可追溯出处</span></div><div><strong>${STATIC_VIEW?data.evidence.length+' 条':'24 小时'}</strong><span>${STATIC_VIEW?'关键摘录 · 连接事实与跟进动作':'成功后再次检查 · 失败退避重试'}</span></div></section>
+ <section class="panel solution-flow"><div class="panel-head"><div><h2>从来源到业务动作</h2><p>官方规则 / 行业报告 / 企业披露 → 已核实字段 → 行业影响 → 企业跟进</p></div><button class="text-button" data-view="updates">查看资料与出处 →</button></div><ol>${steps.map(([name,detail],i)=>`<li><span>0${i+1}${i<4?' →':''}</span><h3>${name}</h3><p>${detail}</p></li>`).join('')}</ol></section>
+ <p class="demo-boundary">当前资料范围：${state.signalData.signals.length}条研究线索（含下线归档）、${state.signalData.sources.length}份来源、${state.signalData.support_leads.length}条扶持线索；完整核验扶持${state.signalData.support_policies.length}条。真实账户投放消耗与受限附件仍待补。</p><section class="solution-proof"><div><strong>${STATIC_VIEW?data.companies.length:done}${STATIC_VIEW?'':'/3'}</strong><span>家企业形成完整研究案例</span></div><div><strong>${files}</strong><span>份公开披露 · 可追溯出处</span></div><div><strong>${STATIC_VIEW?data.evidence.length+' 条':'24 小时'}</strong><span>${STATIC_VIEW?'关键摘录 · 连接事实与跟进动作':'成功后再次检查 · 失败退避重试'}</span></div></section>
  <section class="panel"><div class="panel-head"><h2>用案例回答需求</h2></div><div class="solution-case"><div><h3>国货功效护肤</h3><p>${esc(data.finding)}</p><span>事实 → 行业影响 → 企业 → 腾讯相关假设 → 跟进动作</span></div><button class="button" data-view="case">打开完整案例 →</button></div></section>
  <p class="demo-boundary">当前解决公开信息采集、整理和可解释研判。最终客户优先级与投放方案，需要结合内部覆盖、实际目标和业务反馈。</p></div>`;
 }

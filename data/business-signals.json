@@ -1,0 +1,1518 @@
+{
+  "title": "外部情报 · 两条业务主线",
+  "as_of": "2026-10-25",
+  "prepared_at": "2026-10-25T18:39:40+08:00",
+  "mode": "independent_preview",
+  "support_policies": [],
+  "sources": [
+    {
+      "id": "ocean-notice",
+      "publisher": "巨量千川规则中心",
+      "title": "《巨量千川成本保障规则》更新通知",
+      "url": "https://support.oceanengine.com/support/content/237924",
+      "published_at": null,
+      "updated_at": "2026-09-16",
+      "effective_at": "2026-09-17",
+      "observed_at": "2026-10-25T18:04:39+08:00",
+      "scope": "巨量千川全域控成本及乘方计划；并非全平台全部产品",
+      "coverage": "公告关键文字已核对；另已核对全域规则2026-09-17版本及第六条，全部表格、特别说明与乘方细则仍待补。",
+      "quality": "公告与引用条款已核对；完整细则待补",
+      "sha256": "914db724c04294c8ff606717e3012d9b5511e8d580f7774e12a5f8b67c4447f6",
+      "fingerprint_scope": "官方规则目录 HTML",
+      "body_complete": false,
+      "attachment_status": "引用全域表格、特别说明及乘方细则待补",
+      "validity": "公告更新2026-09-16；相关调整2026-09-17起；未注明终止日"
+    },
+    {
+      "id": "xhs-auth",
+      "publisher": "小红书聚光帮助中心",
+      "title": "【变更】专业号认证规则规范",
+      "url": "https://ad.xiaohongshu.com/next_help/docs/195c5fe505c71b4b0335a2fe0d61d8e0",
+      "published_at": null,
+      "updated_at": "2026-10-12",
+      "effective_at": "2026-06-30",
+      "observed_at": "2026-10-25T18:05:04+08:00",
+      "scope": "仅采用中国大陆企业与个体工商户相关条款；专业号认证不等同全部广告准入",
+      "coverage": "正常浏览已核对更新时间、执行日期及关键文字；图片、附件和全部行业要求未完整验收",
+      "quality": "认证变更条款已核对；全文仍待复核",
+      "sha256": "476fa4b86bc273a83137ce20819631e631ee558b6c811edf18199a4568fae663",
+      "fingerprint_scope": "浏览器可见文本记录，非原始 HTML",
+      "body_complete": false,
+      "validity": "相关条款2026-06-30执行；页面更新2026-10-12；未注明终止日",
+      "attachment_status": "图片、全部行业要求与附件待补"
+    },
+    {
+      "id": "quest-ad",
+      "publisher": "QuestMobile研究院",
+      "title": "QuestMobile 2026年互联网广告市场半年报告：市场总规模接近3900亿元，稳态增长背后三大变革形成，带来内功与外功的组合考验",
+      "url": "https://www.questmobile.cn/research/report/2089599242700075009/",
+      "published_at": "2026-08-18",
+      "updated_at": null,
+      "observed_at": "2026-10-25T10:04:16+00:00",
+      "scope": "中国互联网广告市场；研究机构监测口径，不是腾讯内部投放数据",
+      "coverage": "公开报告 HTML 文字；图片图表未核验，不宣称完整报告；正文含 48 张未核验图片",
+      "quality": "公开 HTML 文字已取得；48 张图表未逐张核验",
+      "sha256": "dffb111f50e0bded01d721ebf1cf955933a1891981b751c7fac9b3fb7c0e425b",
+      "fingerprint_scope": "公开 HTML",
+      "body_complete": false
+    },
+    {
+      "id": "iresearch-cost",
+      "publisher": "艾瑞咨询",
+      "title": "互联网流量集中、平台变现与商家经营成本研究",
+      "url": "https://report.iresearch.cn/report/202610/4873.shtml",
+      "published_at": "2026-10-22",
+      "updated_at": null,
+      "observed_at": "2026-10-25T10:04:13+00:00",
+      "scope": "中国互联网平台与商家经营；研究机构观察及估算",
+      "coverage": "公开报告简介与目录；报告全文和图表未采集，不等于完整报告；正文含 0 张未核验图片",
+      "quality": "仅公开简介与目录，非完整 32 页报告",
+      "sha256": "418791807bac8cc1eb13cf5f5f3e0df9c85892ee14494b27cf6544f17bb3e921",
+      "fingerprint_scope": "公开报告介绍 HTML",
+      "body_complete": false
+    },
+    {
+      "id": "nbs-retail",
+      "publisher": "国家统计局",
+      "title": "2026年1—9月份社会消费品零售总额",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261019_1965614.html",
+      "published_at": "2026-10-19",
+      "updated_at": null,
+      "observed_at": "2026-10-25T10:06:13+00:00",
+      "scope": "中国大陆限额以上单位商品零售分类；不是全行业规模或广告预算",
+      "coverage": "官方五列表格；9月与1—9月金额、同比及表头已提取校验",
+      "quality": "所用分类表字段已校验",
+      "sha256": "b27d0c8aa542541828c90f42953d0e2011eeb4e7552671f15aa1ada6202cb5b6",
+      "fingerprint_scope": "官方统计 HTML",
+      "body_complete": true
+    },
+    {
+      "id": "skincare-disclosure-1225496527-8bfc12f64160",
+      "publisher": "巨潮资讯 · 上市公司披露",
+      "title": "珀莱雅化妆品股份有限公司2026年半年度报告",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-08-25/1225496527.PDF",
+      "published_at": "2026-08-25",
+      "updated_at": null,
+      "observed_at": "2026-10-25T07:07:00+00:00",
+      "scope": "2026年1—6月",
+      "coverage": "PDF 文本层；可比财务表单独校验；正文图片和复杂表格未作完整性验收。",
+      "quality": "所用财务表或渠道摘录已核对；非完整报告验收",
+      "sha256": "8bfc12f6416039cd8062f32246641c1c569800b858904deb8638aedc58a2211c",
+      "fingerprint_scope": "官方披露 PDF",
+      "body_complete": false
+    },
+    {
+      "id": "skincare-disclosure-1225498131-3a0c289eec95",
+      "publisher": "巨潮资讯 · 上市公司披露",
+      "title": "2026年半年度报告",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-08-25/1225498131.PDF",
+      "published_at": "2026-08-25",
+      "updated_at": null,
+      "observed_at": "2026-10-25T07:06:17+00:00",
+      "scope": "2026年1—6月",
+      "coverage": "PDF 文本层；可比财务表单独校验；正文图片和复杂表格未作完整性验收。",
+      "quality": "所用财务表或渠道摘录已核对；非完整报告验收",
+      "sha256": "3a0c289eec9508d6c4061914c28511375bd03c8e89694ecf26e6aaba31f29591",
+      "fingerprint_scope": "官方披露 PDF",
+      "body_complete": false
+    },
+    {
+      "id": "skincare-disclosure-1225530696-d3f6f94e437e",
+      "publisher": "巨潮资讯 · 上市公司披露",
+      "title": "广东丸美生物技术股份有限公司2026年半年度报告",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225530696.PDF",
+      "published_at": "2026-08-29",
+      "updated_at": null,
+      "observed_at": "2026-10-25T07:06:38+00:00",
+      "scope": "2026年1—6月",
+      "coverage": "PDF 文本层；可比财务表单独校验；正文图片和复杂表格未作完整性验收。",
+      "quality": "所用财务表或渠道摘录已核对；非完整报告验收",
+      "sha256": "d3f6f94e437e790e93151cedf5b71af1d5bfaaf908e5b1f9a53953b72acfc8ac",
+      "fingerprint_scope": "官方披露 PDF",
+      "body_complete": false
+    },
+    {
+      "id": "skincare-disclosure-1225592341-7302be1ce3c1",
+      "publisher": "巨潮资讯 · 上市公司披露",
+      "title": "2026年9月投资者关系活动记录表",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-01/1225592341.PDF",
+      "published_at": "2026-10-01",
+      "updated_at": null,
+      "observed_at": "2026-10-25T07:06:22+00:00",
+      "scope": "投资者交流；经营统计期按原文",
+      "coverage": "PDF 文本层；可比财务表单独校验；正文图片和复杂表格未作完整性验收。",
+      "quality": "所用财务表或渠道摘录已核对；非完整报告验收",
+      "sha256": "7302be1ce3c167a36b63ddc2593568c0846fec97a9cbf23d56c544ab5d159ebd",
+      "fingerprint_scope": "官方披露 PDF",
+      "body_complete": false
+    },
+    {
+      "id": "skincare-disclosure-1225496511-747bf6498bd3",
+      "publisher": "巨潮资讯 · 上市公司披露",
+      "title": "珀莱雅化妆品股份有限公司关于2026年第二季度主要经营数据的公告",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-08-25/1225496511.PDF",
+      "published_at": "2026-08-25",
+      "updated_at": null,
+      "observed_at": "2026-10-25T07:07:05+00:00",
+      "scope": "2026年4—6月（单季）",
+      "coverage": "PDF 文本层；可比财务表单独校验；正文图片和复杂表格未作完整性验收。",
+      "quality": "所用财务表或渠道摘录已核对；非完整报告验收",
+      "sha256": "747bf6498bd3052514b97d3238736ed3e8a070d88e05dc5c8984c5439c86510b",
+      "fingerprint_scope": "官方披露 PDF",
+      "body_complete": false
+    },
+    {
+      "id": "skincare-disclosure-1225530772-e27788eebf35",
+      "publisher": "巨潮资讯 · 上市公司披露",
+      "title": "广东丸美生物技术股份有限公司关于2026年第二季度主要经营数据的公告",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225530772.PDF",
+      "published_at": "2026-08-29",
+      "updated_at": null,
+      "observed_at": "2026-10-25T07:06:43+00:00",
+      "scope": "2026年4—6月（单季）",
+      "coverage": "PDF 文本层；可比财务表单独校验；正文图片和复杂表格未作完整性验收。",
+      "quality": "所用财务表或渠道摘录已核对；非完整报告验收",
+      "sha256": "e27788eebf356e5e027319d86820e0ff09a01063592b25bd1e3f38f6b05515ee",
+      "fingerprint_scope": "官方披露 PDF",
+      "body_complete": false
+    },
+    {
+      "id": "xhs-beauty",
+      "publisher": "小红书电商规则中心",
+      "title": "美妆个护类商品品牌资质治理公告",
+      "url": "https://school.xiaohongshu.com/rule/detail/19/119954",
+      "published_at": null,
+      "updated_at": null,
+      "effective_at": "2026-09-28",
+      "ends_at": null,
+      "observed_at": "2026-10-25T18:25:01+08:00",
+      "scope": "国内美妆个护及公告适用类目表中的婴童、孕产妇、美发护发等商品；电商商品经营规则，不等同聚光广告准入",
+      "coverage": "公告主文及三列适用类目表已完整核对；一般品牌治理规则主文及品牌授权材料表另已读取。品牌管控清单附件受限，未确认具体品牌是否在清单中。",
+      "quality": "公告正文与类目表已核对；品牌清单附件待补",
+      "body_complete": true,
+      "main_text_complete": true,
+      "attachment_status": "品牌管控清单附件待补；未确认任何企业属于治理清单",
+      "validity": "截至本次核对，官方规则中心列示该公告；未注明终止日",
+      "sha256": "adc80343ace47e793d26d9b8c3985dc9256512bd132b39b5ec427cb34e812a93",
+      "fingerprint_scope": "正常公开浏览的可见文本记录，非原始 HTML",
+      "capture_manifest": [
+        {
+          "file": "xhs-beauty-browser.txt",
+          "sha256": "adc80343ace47e793d26d9b8c3985dc9256512bd132b39b5ec427cb34e812a93"
+        }
+      ],
+      "acquisition": "manual_public_browser"
+    },
+    {
+      "id": "xhs-brand",
+      "publisher": "小红书电商规则中心",
+      "title": "品牌商品治理规则",
+      "url": "https://school.xiaohongshu.com/rule/unique/10695",
+      "published_at": "2026-09-17",
+      "updated_at": null,
+      "effective_at": "2026-09-24",
+      "ends_at": null,
+      "observed_at": "2026-10-25T18:31:11+08:00",
+      "scope": "小红书品牌商品治理；本预览只采用国内商家的品牌授权要求与美妆采销凭证例外",
+      "coverage": "主文及附录2、3可见表格已读取；附录1品牌资质管控清单访问受限，附录4授权模板未下载，未视为整套材料完整。",
+      "quality": "主文与材料表已读取；品牌清单和模板待补",
+      "body_complete": false,
+      "main_text_complete": true,
+      "attachment_status": "附录1受限；附录4模板待补",
+      "validity": "修订公示2026-09-17，修订生效2026-09-24；2023首次生效日不作本次新规日期",
+      "sha256": "82b81e74431e8cde73fc9138ed80bbced02c99fc614f22c875b8cc0c860433d1",
+      "fingerprint_scope": "正常公开浏览的可见文本记录，非原始 HTML",
+      "capture_manifest": [
+        {
+          "file": "xhs-brand-browser.txt",
+          "sha256": "82b81e74431e8cde73fc9138ed80bbced02c99fc614f22c875b8cc0c860433d1"
+        }
+      ],
+      "acquisition": "manual_public_browser"
+    },
+    {
+      "id": "douyin-double11",
+      "publisher": "抖音电商学习中心",
+      "title": "2026年抖音商城双11招商规则",
+      "url": "https://school.jinritemai.com/doudian/web/articlev0/aJqWoaCZesUW",
+      "published_at": "2026-09-30",
+      "updated_at": null,
+      "effective_at": "2026-10-15T00:00:00+08:00",
+      "ends_at": "2026-11-11T23:59:59+08:00",
+      "observed_at": "2026-10-25T18:26:14+08:00",
+      "scope": "仅采用中国大陆小店商家与国内商品相关条款；全球购条款不纳入研究。扶持面向符合门槛的垂类商家/达人，不是全行业无条件补贴",
+      "coverage": "主文第1—4章分段读取到末尾4.3.4；参与门槛、商家出资、扶持权益与取消资格条款已核对。示意图、引用手册及后台具体奖励门槛未完整核验。",
+      "quality": "活动期与公开扶持条件已核对；后台门槛待确认",
+      "body_complete": false,
+      "main_text_complete": true,
+      "attachment_status": "图示、引用手册待补；具体奖励门槛与金额以商家后台为准",
+      "validity": "截至2026-10-25处于公告活动期；平台保留调整节奏与资格的权利",
+      "sha256": "a3e30fa0d801ab598fa6592355a2989645c3adf12b98c7e8b1ead4335a7cc3eb",
+      "fingerprint_scope": "正常公开浏览的可见文本记录（按证据索引顺序拼接），非原始 HTML",
+      "capture_manifest": [
+        {
+          "file": "douyin-double11-browser-top.txt",
+          "sha256": "3000189608b60ab8145890e8e8a797137a36cb364ae8e0a53f397060806ed5b4"
+        },
+        {
+          "file": "douyin-double11-browser-support.txt",
+          "sha256": "5939e09631894f27647885bc3da08f4a577570ea9e5771c99b607d6bf97fff1a"
+        },
+        {
+          "file": "douyin-double11-browser-end.txt",
+          "sha256": "14c6311f814bce40185c9f80eb39ee52c8f03343728f97e08d1a8241d9f0c715"
+        }
+      ],
+      "acquisition": "manual_public_browser"
+    },
+    {
+      "id": "xhs-crowd",
+      "publisher": "小红书蒲公英帮助中心",
+      "title": "众测招募",
+      "url": "https://pgy.xiaohongshu.com/help/detail?id=ff868b30379f999e313926c9e7c3bda0&userType=4",
+      "published_at": null,
+      "updated_at": null,
+      "effective_at": "2025-10-14",
+      "ends_at": null,
+      "observed_at": "2026-10-25T18:30:35+08:00",
+      "scope": "消费品客户，尤其是中小商家；品牌在蒲公英众测模式下的首单，不是全站广告费减免",
+      "coverage": "可见正文已读取至FAQ Q10及案例目录；单任务门槛、首单判断、取消失效和服务费条款已核对。流程图、案例图片未逐张核验。",
+      "quality": "文字条款已核对；截止日未披露，图片待补",
+      "body_complete": false,
+      "main_text_complete": true,
+      "attachment_status": "流程图和案例图片待补",
+      "validity": "2026-10-23页面当前列示该权益；开始于2025年，未披露截止日，不据此保证现在仍可领取",
+      "sha256": "a75d3fbd95c109ca9df4b94f4a2e8ee81eb9ac6e3698e15e4dd221cd0639e7ff",
+      "fingerprint_scope": "正常公开浏览的可见文本记录，非原始 HTML",
+      "capture_manifest": [
+        {
+          "file": "xhs-crowd-browser.txt",
+          "sha256": "a75d3fbd95c109ca9df4b94f4a2e8ee81eb9ac6e3698e15e4dd221cd0639e7ff"
+        }
+      ],
+      "acquisition": "manual_public_browser",
+      "displayed_date": "2026-10-23",
+      "displayed_date_note": "页面显示时间，未标明发布或更新类型"
+    },
+    {
+      "id": "qianchuan-withdrawn",
+      "publisher": "巨量千川规则中心",
+      "title": "使用千川乘方享电商技术服务费减免政策（已下线）",
+      "url": "https://qianchuan.jinritemai.com/support/content/201296?mappingType=2&spaceId=295",
+      "published_at": null,
+      "updated_at": "2026-08-02",
+      "effective_at": null,
+      "ends_at": "2026-08-01T00:00:00+08:00",
+      "observed_at": "2026-10-25T18:28:20+08:00",
+      "scope": "使用千川乘方产生的相关成交订单；本预览只采用国内订单的政策下线事实",
+      "coverage": "已读取页首下线公告及历史政策前半段；只采用明确的下线时间和成本核对提醒，未将历史减免费率继续展示为现行权益。",
+      "quality": "下线事实已核对；历史全文未完整核验",
+      "body_complete": false,
+      "main_text_complete": false,
+      "attachment_status": "历史适用范围表及后半段未完整核对",
+      "validity": "官方明确2026-08-01零点起下线；不计入当前扶持",
+      "sha256": "72931cce711f4f8e7b673045dc5d688a3d61f322bc97794e46bfc09f19f35be2",
+      "fingerprint_scope": "正常公开浏览的可见文本记录，非原始 HTML",
+      "capture_manifest": [
+        {
+          "file": "qianchuan-withdrawn-browser.txt",
+          "sha256": "72931cce711f4f8e7b673045dc5d688a3d61f322bc97794e46bfc09f19f35be2"
+        }
+      ],
+      "acquisition": "manual_public_browser"
+    },
+    {
+      "id": "qianchuan-full",
+      "publisher": "巨量千川规则中心",
+      "title": "巨量千川「全域投放」成本保障规则",
+      "url": "https://qianchuan.jinritemai.com/support/content/139336?mappingType=2&spaceId=295",
+      "published_at": null,
+      "updated_at": "2026-09-16",
+      "effective_at": "2026-09-17",
+      "ends_at": null,
+      "observed_at": "2026-10-25T18:27:57+08:00",
+      "scope": "巨量千川竞价投放-全域投放及小店随心推的相关全域订单；不同ROI目标和调控工具规则有差别",
+      "coverage": "已读版本日期2026-09-17、适用场景及第六条回传/赠款说明；表一仅部分单元格可读，剩余表格、特别说明、FAQ及乘方细则未完整核验，不摘取不完整表格中的数值门槛。",
+      "quality": "版本与第六条已核对；全部表格及特别说明待补",
+      "body_complete": false,
+      "main_text_complete": false,
+      "attachment_status": "全部成本保障表格、特别说明、FAQ及乘方细则待补",
+      "validity": "官方入口版本日期2026-09-17；未注明终止日",
+      "sha256": "f132151b009bfe1a8430f96e08c0e465f5dc8bd1cde1b320d143919cc56a394c",
+      "fingerprint_scope": "正常公开浏览的可见文本记录（按证据索引顺序拼接），非原始 HTML",
+      "capture_manifest": [
+        {
+          "file": "qianchuan-full-browser-top.txt",
+          "sha256": "0d68042d94db036b679a5d1299786f0a0ffe2e6e0965ab27d9658e4933230bde"
+        },
+        {
+          "file": "qianchuan-full-browser-middle.txt",
+          "sha256": "e7c1c6f00724f71428d51eb41ec17b20db1fd51b07278b4942358dad7087ff1e"
+        },
+        {
+          "file": "qianchuan-full-browser-table.txt",
+          "sha256": "cffafbb1cd4a249e682c523af15aee421b47a0a3840c77c1474b0629f45528c5"
+        }
+      ],
+      "acquisition": "manual_public_browser"
+    }
+  ],
+  "signals": [
+    {
+      "id": "xhs-beauty-qualification",
+      "track": "competitor",
+      "category": "规则变更",
+      "title": "美妆品牌授权要求调整",
+      "platform": "小红书",
+      "industry": "美妆个护 / 品牌自营与授权渠道",
+      "period": "公告生效2026-09-28；分阶段要求见详情",
+      "review": "公告正文已核对 · 品牌清单附件待补",
+      "policy": {
+        "state": "current_entry",
+        "status": "官方当前入口列示 · 未注明终止日",
+        "dates": [
+          {
+            "label": "公告生效",
+            "value": "2026-09-28"
+          },
+          {
+            "label": "正文：停止新增采销凭证",
+            "value": "2026-09-24起"
+          },
+          {
+            "label": "正文：历史资质开始清理",
+            "value": "2026-10-10起"
+          },
+          {
+            "label": "终止日期",
+            "value": "未注明；以官方后续规则为准"
+          }
+        ],
+        "body": "公告主文和适用类目表已核对完整；引用的品牌治理规则主文与材料表已读取。",
+        "attachments": "品牌资质管控清单受限，未确认具体品牌；授权模板待补。",
+        "eligibility": [
+          "按公告适用类目判断，不把所有美妆相关经营者一概认定受影响。",
+          "美妆个护商品品牌资质不再以采销凭证替代品牌授权；店铺主体、授权链及有效期需逐项核对。"
+        ],
+        "benefits": [
+          "属于资质治理要求，未列示现金、流量或广告补贴。"
+        ],
+        "priority": "优先核对",
+        "fully_verified": false
+      },
+      "facts": [
+        {
+          "text": "公告对适用美妆个护商品收紧品牌资质，区分停止新增采销凭证与历史资质清理两个时点。",
+          "source_id": "xhs-beauty",
+          "locator": "公告主文与适用类目表",
+          "quote": ""
+        },
+        {
+          "text": "引用规则的品牌授权材料表要求授权链指向开店主体，并覆盖授权期限与销售范围；其采销凭证条目明确美妆个护不适用。",
+          "source_id": "xhs-brand",
+          "locator": "附录2：品牌资质清单",
+          "quote": ""
+        }
+      ],
+      "impact": "品牌授权链与渠道控制能力值得优先核对。品牌自营、正式授权经销渠道和采购转售渠道可能面临不同影响；缺少品牌清单时不判断具体公司受到处置。",
+      "hypothesis": "若品牌自营或授权渠道有新增获客、会员运营和复购目标，可核对腾讯内容触达与微信承接是否适配。若只是补材料、没有新增经营目标，则不形成腾讯广告新增预算机会。",
+      "actions": [
+        "先与品牌电商/渠道负责人核对：哪些国内店铺、商品属于公告范围，授权是否完整，是否收到平台整改通知。",
+        "再问经营目标：此次调整是否改变自营与经销渠道配置；是否已有小程序、企业微信或会员承接，以及当前腾讯客户覆盖。",
+        "条件成立后，围绕一条合规产品线提出获客到复购的小范围方案；基线、净贡献、复购指标及停止条件由客户确认。"
+      ],
+      "limits": [
+        "这是电商商品资质治理，不等同聚光广告准入变化，也不能用来规避任何平台资质要求。",
+        "公告页生效日与正文分阶段日期分别保留，没有把清理开始日写成整改截止日。",
+        "品牌附件待补，未确认贝泰妮、珀莱雅、丸美是否在清单中或受到实际影响。"
+      ],
+      "companies": [
+        "贝泰妮",
+        "珀莱雅",
+        "丸美生物"
+      ],
+      "company_context": "三家仅为已有财报证据的研究对象；尚未确认相关店铺、品牌清单命中或平台整改情况。"
+    },
+    {
+      "id": "douyin-double11-support",
+      "track": "competitor",
+      "category": "扶持政策",
+      "title": "双十一垂类直播间扶持与参与成本",
+      "platform": "抖音 / 巨量千川",
+      "industry": "国内零售 / 有直播经营能力的商家",
+      "period": "2026-10-15—2026-11-11",
+      "review": "公开扶持条款已核对 · 后台门槛待确认",
+      "policy": {
+        "state": "in_period",
+        "status": "截至资料核对日，处于公告活动期",
+        "dates": [
+          {
+            "label": "报名时间",
+            "value": "2026-09-14 14:00—2026-11-11 23:59:59"
+          },
+          {
+            "label": "活动时间",
+            "value": "2026-10-15 00:00—2026-11-11 23:59:59"
+          },
+          {
+            "label": "价格校验期",
+            "value": "2026-08-31—2026-11-11"
+          }
+        ],
+        "body": "主文已分段读取至4.3.4；基础准入、商家让利、公开扶持条件与资格取消规则已核对。",
+        "attachments": "示意图、引用手册待补；后台具体奖励门槛、金额和协议未取得。",
+        "eligibility": [
+          "国内小店商家及商品需满足相应基础条件；商家体验分门槛、商品质量与服务要求按原文核对。",
+          "垂类重点直播间面向符合门槛的商家/达人，具体奖励门槛以后台为准。",
+          "立减折扣或一件直降由商家出资；开播前需按要求确认场次与备货。"
+        ],
+        "benefits": [
+          "符合条件者有机会获得流量、补贴及会场资源；并非报名即可领取，也未披露统一保证金额。"
+        ],
+        "priority": "条件研究",
+        "fully_verified": false
+      },
+      "facts": [
+        {
+          "text": "活动列有超值天团及超值品类/万店钜惠直播间等扶持玩法；权益受资格、审核、备货及经营表现约束。",
+          "source_id": "douyin-double11",
+          "locator": "第3.4—3.5节",
+          "quote": ""
+        },
+        {
+          "text": "活动优惠中，立减折扣与一件直降由商家出资；平台可按规则调整或取消商品资格与资源支持。",
+          "source_id": "douyin-double11",
+          "locator": "第2.2.2、3.1—3.2及4.1节",
+          "quote": ""
+        }
+      ],
+      "impact": "可先研究具有直播团队、稳定库存和履约能力的零售商家。本规则支持的是垂类重点直播间玩法，不能据此给美妆、家电、服饰等行业排出补贴强弱。",
+      "hypothesis": "若客户希望大促之外继续积累可复购用户，可核对腾讯触达与微信承接的增量价值；竞媒扶持也可能增强其渠道吸引力，不能把商家让利压力直接等同预算转投。",
+      "actions": [
+        "请企业电商/媒介负责人确认是否报名、实际获批权益与到期时间；以可分享的后台规则确认奖励条件。",
+        "用同一商品核对商家折扣、平台补贴、广告费、退货及履约后的净贡献；分开记录GMV和实际可回收收入。",
+        "若有跨渠道新增用户及复购需求，再讨论腾讯方案；先确认货盘、库存、微信承接和对照指标，避免只比表面ROI。"
+      ],
+      "limits": [
+        "仅采用国内商家条款；全球购条款未纳入。",
+        "后台门槛及引用材料待补，不计为完整核验的可兑现扶持。",
+        "活动节奏与资格可调整；未确认任何现有案例企业已参加。"
+      ],
+      "companies": [],
+      "company_context": ""
+    },
+    {
+      "id": "xhs-crowd-first-order",
+      "track": "competitor",
+      "category": "扶持政策",
+      "title": "消费品众测首单减免：先确认资格与期限",
+      "platform": "小红书",
+      "industry": "消费品 / 有测品与内容验证需求的品牌",
+      "period": "权益始于2025-10-14；2026-10-23页面仍列示，截止未披露",
+      "review": "文字条款已核对 · 截止与图片待补",
+      "policy": {
+        "state": "needs_review",
+        "status": "官方当前列示 · 截止未披露，适用前确认",
+        "dates": [
+          {
+            "label": "权益开始",
+            "value": "2025-10-14"
+          },
+          {
+            "label": "页面显示时间",
+            "value": "2026-10-23；未标明该时间为发布或更新"
+          },
+          {
+            "label": "截止日期",
+            "value": "未披露；不能保证目前仍可领取"
+          }
+        ],
+        "body": "可见文字读取到FAQ Q10及案例目录；合作门槛、首单定义、取消失效和服务费条款已核对。",
+        "attachments": "流程图、案例图片待补；需在正式下单前核对权益是否继续开放。",
+        "eligibility": [
+          "单任务合作金额至少1万元；按关联品牌是否首次创建众测订单判断资格。",
+          "品牌自主下单或代理代下单均按同一品牌历史计算；一旦订单取消或未完成，后续下单不再保留首单优惠资格。"
+        ],
+        "benefits": [
+          "当前说明列示新客首单免10%平台服务费，适用于两种众测结算方式；不是全部广告投放金额打九折。"
+        ],
+        "priority": "条件研究",
+        "fully_verified": false
+      },
+      "facts": [
+        {
+          "text": "当前说明把消费品客户、特别是中小商家的测品、测款和内容验证作为众测场景，并列示首单平台服务费减免。",
+          "source_id": "xhs-crowd",
+          "locator": "产品简介及第5节",
+          "quote": ""
+        },
+        {
+          "text": "合作有单任务门槛，首单按关联品牌历史订单判断；取消或未完成订单可能使首单优惠失效。",
+          "source_id": "xhs-crowd",
+          "locator": "第4—5节及FAQ Q2",
+          "quote": ""
+        }
+      ],
+      "impact": "消费品新品牌、产品线或新内容场景可作为研究入口；权益判断依赖品牌历史，不能把成熟品牌、代理新账号都视为新客。",
+      "hypothesis": "若品牌把测评结果用于寻找新增受众，可核对腾讯内容触达与微信承接的互补空间。小红书的首单减免可能降低试用成本，腾讯方案需要证明可衡量的增量，而非仅比较一次性优惠。",
+      "actions": [
+        "与品牌市场负责人确认关联品牌是否已有众测订单、预计测什么产品与买点；下单前再次确认权益开放情况与费用范围。",
+        "把内容测试目标和经营目标分开：核对后续交易/复购路径、内容使用授权及其他渠道复用权。",
+        "有增量目标和授权条件后，再设计腾讯触达与承接的验证方案；以新增有效用户和净贡献评估，不把阅读量直接当成交。"
+      ],
+      "limits": [
+        "该权益启动于2025年，并非2026年新推出。页面显示2026-10-23，但未标明这是发布或更新时间。",
+        "未披露截止日，图片未完整核验，不计为完整核验的现行扶持。",
+        "面向消费品场景不代表某细分行业被独家或优先补贴。"
+      ],
+      "companies": [],
+      "company_context": ""
+    },
+    {
+      "id": "ocean-cost-cycle",
+      "track": "competitor",
+      "category": "规则变更",
+      "title": "千川成本保障回传周期调整",
+      "platform": "抖音 / 巨量千川",
+      "industry": "电商广告主",
+      "period": "2026-09-17版本；未注明终止日",
+      "facts": [
+        {
+          "text": "公告调整相关计划回传周期；全域规则第六条列明，推直播通常在保障结束后2个自然日、推商品通常在8个自然日完成数据回传，异常时可延长。",
+          "source_id": "qianchuan-full",
+          "locator": "版本日期及第六条",
+          "quote": ""
+        },
+        {
+          "text": "公告说明本次更新不实质影响保障权益；不能解读为保障取消。",
+          "source_id": "ocean-notice",
+          "locator": "更新公告第（2）项",
+          "quote": ""
+        }
+      ],
+      "impact": "使用相关计划的商家需区分保障数据回传、投放效果归因与实际现金支出。",
+      "hypothesis": "若企业在多平台经营中存在结算或归因困扰，可由腾讯客户团队核对跨媒体效果口径与经营目标。",
+      "actions": [
+        "先确认客户是否使用相关千川产品及当前适用细则。",
+        "核对回传、归因和结算周期，再讨论跨媒体效果比较。"
+      ],
+      "limits": [
+        "仅引用已读条款，不能代替全部成本保障门槛、例外和资格审查。",
+        "赠款、数据回传、现金结算及归因分别核对；不摘取未完整对应行列的表格数值。"
+      ],
+      "companies": [],
+      "review": "回传条款与全域版日期已核对 · 全部细则待补",
+      "policy": {
+        "state": "current_entry",
+        "status": "官方入口版本已核对 · 全部保障条件待补",
+        "dates": [
+          {
+            "label": "相关公告更新",
+            "value": "2026-09-16"
+          },
+          {
+            "label": "全域规则版本",
+            "value": "2026-09-17"
+          },
+          {
+            "label": "终止日期",
+            "value": "未注明；以官方后续规则为准"
+          }
+        ],
+        "body": "公告关键文字及全域规则第六条回传/赠款说明已核对；全部表格与特别说明未完整读取。",
+        "attachments": "全域规则剩余表格、特别说明、FAQ及乘方细则待补。",
+        "eligibility": [
+          "需按具体投放产品、ROI优化目标和计划判断保障资格。"
+        ],
+        "benefits": [
+          "成本保障按条件以赠款发放，不等同无条件现金赔付。"
+        ],
+        "priority": "条件研究",
+        "fully_verified": false
+      }
+    },
+    {
+      "id": "xhs-auth-change",
+      "track": "competitor",
+      "category": "规则变更",
+      "title": "小红书专业号认证材料要求调整",
+      "platform": "小红书",
+      "industry": "需认证资质的国内经营主体",
+      "period": "执行 2026-06-30；页面更新 2026-10-12",
+      "facts": [
+        {
+          "text": "大陆主体相关条款强调资质应由申请主体自持，电子营业执照与截图材料按限定方式提交。",
+          "source_id": "xhs-auth",
+          "locator": "认证资质规范调整通知 / 认证材料要求",
+          "quote": "加盖申请主体公司的实体鲜章"
+        }
+      ],
+      "impact": "需要行业资质的广告客户，应先检查主体、经营范围与认证材料是否一致。",
+      "hypothesis": "可将主体资质核对作为服务商获客沟通问题，腾讯广告自身准入与素材要求另行确认。",
+      "actions": [
+        "按客户具体行业核对主体自持资质及有效期。",
+        "区分专业号认证、聚光投放准入与腾讯广告准入。"
+      ],
+      "limits": [
+        "6月执行日期与10月页面更新日期分别记录，未宣称10月新增该限制。",
+        "仅核对所用条款；正文图片和全行业附件未验收。"
+      ],
+      "companies": [],
+      "review": "关键认证条款已核对 · 全文待复核",
+      "policy": {
+        "state": "current_entry",
+        "status": "官方当前入口列示 · 非10月新增限制",
+        "dates": [
+          {
+            "label": "相关条款执行",
+            "value": "2026-06-30"
+          },
+          {
+            "label": "页面更新",
+            "value": "2026-10-12"
+          },
+          {
+            "label": "终止日期",
+            "value": "未注明；以官方后续规则为准"
+          }
+        ],
+        "body": "已核对所用大陆主体认证条款；全部图片、行业要求和附件尚未完整验收。",
+        "attachments": "图片、全部行业要求与附件待补。",
+        "eligibility": [
+          "行业资质与申请主体、经营范围、有效期匹配。"
+        ],
+        "benefits": [
+          "认证规则，不是现金或流量扶持。"
+        ],
+        "priority": "条件研究",
+        "fully_verified": false
+      }
+    },
+    {
+      "id": "ad-structure",
+      "track": "competitor",
+      "category": "投放研究",
+      "title": "行业投放结构出现分化",
+      "platform": "QuestMobile",
+      "industry": "美妆、食品、家居等",
+      "period": "2026年上半年",
+      "facts": [
+        {
+          "text": "QuestMobile披露国内互联网广告市场规模3853.4亿元，同比增长7.1%。",
+          "source_id": "quest-ad",
+          "locator": "导语 / 2.1",
+          "quote": ""
+        },
+        {
+          "text": "报告将美妆护理列为投放增长赛道，并描述部分行业的软硬广组合调整。",
+          "source_id": "quest-ad",
+          "locator": "2.2 / 3.2",
+          "quote": ""
+        }
+      ],
+      "impact": "同一行业的投放形式与客户阶段可能不同，适合进一步拆解品牌、效果与内容预算。",
+      "hypothesis": "可结合腾讯内部行业消耗与客户覆盖，核对内容触达和交易承接的新增需求。",
+      "actions": [
+        "按行业核对报告口径与统计期，再与内部行业走势比较。",
+        "只有找到企业预算或经营目标出处后，才形成客户跟进清单。"
+      ],
+      "limits": [
+        "研究机构监测口径，非竞媒后台真实账户消耗。",
+        "48张图表未逐张核验；未按图片推算抖音或小红书投放额。"
+      ],
+      "companies": [],
+      "review": "报告公开文字已核对 · 图表未全验",
+      "tracks": [
+        "competitor",
+        "industry"
+      ]
+    },
+    {
+      "id": "merchant-cost",
+      "track": "competitor",
+      "category": "投放研究",
+      "title": "关注商家的全链路经营成本",
+      "platform": "艾瑞咨询",
+      "industry": "内容电商与零售商家",
+      "period": "报告2026-10-22发布；所涉指标统计期不同",
+      "facts": [
+        {
+          "text": "艾瑞公开简介指出，广告、佣金、直播及退货等共同影响商家经营成本。",
+          "source_id": "iresearch-cost",
+          "locator": "报告简介",
+          "quote": ""
+        }
+      ],
+      "impact": "媒介比较应使用可比的获客与成交口径，平台费率不能直接替代企业营销投入。",
+      "hypothesis": "若客户愿意提供经营目标与成本构成，可研究腾讯触达与私域承接的适配；需先验证实际差异。",
+      "actions": [
+        "取得报告全文或客户授权数据，核对费率分母和费用构成。",
+        "先建立同口径指标表，再评估不同渠道的增量价值。"
+      ],
+      "limits": [
+        "只取得公开简介与目录，不宣称完成全文图表验证。",
+        "不能仅据报告推断腾讯更便宜或客户会转投。"
+      ],
+      "companies": [],
+      "review": "公开简介已取得 · 全文待补",
+      "tracks": [
+        "competitor",
+        "industry"
+      ]
+    },
+    {
+      "id": "retail-beauty",
+      "track": "industry",
+      "category": "行业统计",
+      "title": "美妆需求与企业经营分开看",
+      "platform": "国家统计局",
+      "industry": "美妆个护",
+      "period": "2026年1—9月",
+      "facts": [
+        {
+          "text": "化妆品类：1—9月零售额3,491亿元，累计同比+6.1%；9月同比+5.4%。",
+          "source_id": "nbs-retail",
+          "locator": "分类统计表 / 化妆品类",
+          "quote": ""
+        }
+      ],
+      "impact": "需求端增长可作为研究入口；不同品牌与渠道的经营方向仍需逐一核对。",
+      "hypothesis": "结合三家已知企业的费用、渠道与品牌结构，先核对增长目标和微信承接条件。",
+      "actions": [
+        "核对需求变化是否延续，以及具体企业的品牌、产品和渠道表现。",
+        "补充客户覆盖、经营目标与可衡量的承接条件后再推进。"
+      ],
+      "limits": [
+        "限额以上单位商品类别，不代表整个行业规模或广告预算。",
+        "月度同比与累计同比不能当作两个相邻月份的增速。"
+      ],
+      "companies": [
+        "贝泰妮",
+        "珀莱雅",
+        "丸美生物"
+      ],
+      "review": "已核对所用字段"
+    },
+    {
+      "id": "retail-food",
+      "track": "industry",
+      "category": "行业统计",
+      "title": "食品消费需求继续增长",
+      "platform": "国家统计局",
+      "industry": "食品消费",
+      "period": "2026年1—9月",
+      "facts": [
+        {
+          "text": "粮油、食品类：1—9月零售额17,738亿元，累计同比+6.8%；9月同比+6.7%。",
+          "source_id": "nbs-retail",
+          "locator": "分类统计表 / 粮油、食品类",
+          "quote": ""
+        }
+      ],
+      "impact": "限额以上单位食品类零售增长，可继续寻找品牌与渠道层面的经营证据。",
+      "hypothesis": "若具体企业存在新品教育、复购或区域增长目标，再研究腾讯触达与承接场景。",
+      "actions": [
+        "核对需求变化是否延续，以及具体企业的品牌、产品和渠道表现。",
+        "补充客户覆盖、经营目标与可衡量的承接条件后再推进。"
+      ],
+      "limits": [
+        "限额以上单位商品类别，不代表整个行业规模或广告预算。",
+        "月度同比与累计同比不能当作两个相邻月份的增速。"
+      ],
+      "companies": [],
+      "review": "已核对所用字段"
+    },
+    {
+      "id": "retail-appliances",
+      "track": "industry",
+      "category": "行业统计",
+      "title": "家电单月与累计方向不同",
+      "platform": "国家统计局",
+      "industry": "家用电器",
+      "period": "2026年1—9月",
+      "facts": [
+        {
+          "text": "家用电器和音像器材类：1—9月零售额8,105亿元，累计同比-4.9%；9月同比+1.9%。",
+          "source_id": "nbs-retail",
+          "locator": "分类统计表 / 家用电器和音像器材类",
+          "quote": ""
+        }
+      ],
+      "impact": "单月同比改善与累计负增长并存，需要核对基数、补贴和换新周期。",
+      "hypothesis": "只有确认品类、区域、门店与履约条件后，才研究到店或换新营销机会。",
+      "actions": [
+        "核对需求变化是否延续，以及具体企业的品牌、产品和渠道表现。",
+        "补充客户覆盖、经营目标与可衡量的承接条件后再推进。"
+      ],
+      "limits": [
+        "限额以上单位商品类别，不代表整个行业规模或广告预算。",
+        "月度同比与累计同比不能当作两个相邻月份的增速。"
+      ],
+      "companies": [],
+      "review": "已核对所用字段"
+    },
+    {
+      "id": "company-botanee",
+      "track": "industry",
+      "category": "企业财报",
+      "title": "贝泰妮 · 优先核对",
+      "platform": "上市公司披露",
+      "industry": "美妆个护",
+      "period": "2026年1—6月",
+      "facts": [
+        {
+          "text": "集团营收同比+9.27%，销售费用同比+1.93%。",
+          "source_id": "skincare-disclosure-1225498131-3a0c289eec95",
+          "locator": "PDF 第61页",
+          "quote": ""
+        },
+        {
+          "text": "公开交流材料出现腾讯生态OMO与微信经营线索。",
+          "source_id": "skincare-disclosure-1225592341-7302be1ce3c1",
+          "locator": "PDF 第2页",
+          "quote": ""
+        }
+      ],
+      "impact": "公司已有微信经营线索，可从既有渠道的转化与复购问题展开研究；公开文件没有证明存在腾讯广告增量预算。",
+      "hypothesis": "若现有微信经营确有获客、成交或复购缺口，可研究腾讯广告触达与小程序承接的衔接方案。",
+      "actions": [
+        "确认这期变化的原因：以 2026年1—6月 的原件为基线，拆分护肤品牌、渠道、销量、客单和供给因素；核对披露的渠道变化是否延续。",
+        "核对腾讯已有覆盖与适配：与全域电商 / 私域负责人核对微信经营目标、有效新客、成交与复购，并确认腾讯已有覆盖和归因条件。",
+        "条件成立后再提方案：只围绕已确认的问题讨论一条产品线和承接路径，先约定基线、对照、指标及暂停条件。预算由企业确认。"
+      ],
+      "limits": [
+        "集团销售费用不等同单品牌广告费或大陆广告预算。",
+        "集团数值包含多个品牌及业务；销售费用不等同广告费，渠道营收不等同媒体消耗。腾讯客户关系、准入与增量预算尚未确认。"
+      ],
+      "companies": [
+        "贝泰妮"
+      ],
+      "review": "所用财务与渠道字段已核对"
+    },
+    {
+      "id": "company-proya",
+      "track": "industry",
+      "category": "企业财报",
+      "title": "珀莱雅 · 优先研究",
+      "platform": "上市公司披露",
+      "industry": "美妆个护",
+      "period": "2026年1—6月",
+      "facts": [
+        {
+          "text": "集团营收同比+0.24%，销售费用同比+7.40%。",
+          "source_id": "skincare-disclosure-1225496527-8bfc12f64160",
+          "locator": "PDF 第68页",
+          "quote": ""
+        }
+      ],
+      "impact": "投入与收入变化不一致，值得拆解推广目标、时点和产品结构；费用前置与品牌培育均可能影响同期比较。",
+      "hypothesis": "若确认存在可改善的获客或转化问题，再研究腾讯内容触达与承接能力；先补企业微信经营依据。",
+      "actions": [
+        "确认这期变化的原因：以 2026年1—6月 的原件为基线，拆分护肤品牌、渠道、销量、客单和供给因素；特别核对产品均价与结构变化。",
+        "核对腾讯已有覆盖与适配：请市场 / 媒介负责人解释费用增量对应的品牌、目标、渠道和时间，再确认是否有增量获客需求。",
+        "条件成立后再提方案：只围绕已确认的问题讨论一条产品线和承接路径，先约定基线、对照、指标及暂停条件。预算由企业确认。"
+      ],
+      "limits": [
+        "集团销售费用不等同单品牌广告费或大陆广告预算。",
+        "集团数值包含多个品牌及业务；销售费用不等同广告费，渠道营收不等同媒体消耗。腾讯客户关系、准入与增量预算尚未确认。 本期还有产品均价 / 结构变化，需拆分对营收的影响。 当前尚缺可用于本案的微信经营出处。"
+      ],
+      "companies": [
+        "珀莱雅"
+      ],
+      "review": "所用财务与渠道字段已核对"
+    },
+    {
+      "id": "company-marubi",
+      "track": "industry",
+      "category": "企业财报",
+      "title": "丸美生物 · 拆分品牌研究",
+      "platform": "上市公司披露",
+      "industry": "美妆个护",
+      "period": "2026年1—6月",
+      "facts": [
+        {
+          "text": "集团营收同比-5.76%，销售费用同比-2.39%。",
+          "source_id": "skincare-disclosure-1225530696-d3f6f94e437e",
+          "locator": "PDF 第41页",
+          "quote": ""
+        },
+        {
+          "text": "原文披露丸美品牌营收增长，与集团走势分化。",
+          "source_id": "skincare-disclosure-1225530696-d3f6f94e437e",
+          "locator": "PDF 第8页",
+          "quote": ""
+        }
+      ],
+      "impact": "集团收入下滑，但原文披露 丸美品牌营收同比 +1.97%。集团走势不能直接替代护肤品牌判断，应拆分品牌与渠道研究。",
+      "hypothesis": "若护肤品牌有扩客或复购目标，再核对腾讯覆盖与微信承接；不能用集团或彩妆的收缩推断护肤品牌预算。",
+      "actions": [
+        "确认这期变化的原因：以 2026年1—6月 的原件为基线，拆分护肤品牌、渠道、销量、客单和供给因素；核对披露的渠道变化是否延续。",
+        "核对腾讯已有覆盖与适配：请品牌电商区分护肤和彩妆的收入、达播 / 自播与获客目标，先确认护肤品牌是否有继续增长的经营计划。",
+        "条件成立后再提方案：只围绕已确认的问题讨论一条产品线和承接路径，先约定基线、对照、指标及暂停条件。预算由企业确认。"
+      ],
+      "limits": [
+        "集团销售费用不等同单品牌广告费或大陆广告预算。",
+        "集团数值包含多个品牌及业务；销售费用不等同广告费，渠道营收不等同媒体消耗。腾讯客户关系、准入与增量预算尚未确认。 当前尚缺可用于本案的微信经营出处。"
+      ],
+      "companies": [
+        "丸美生物"
+      ],
+      "review": "所用财务与渠道字段已核对"
+    },
+    {
+      "id": "qianchuan-fee-withdrawal",
+      "track": "competitor",
+      "category": "政策下线",
+      "title": "乘方服务费减免已下线，重核经营成本",
+      "platform": "抖音 / 巨量千川",
+      "industry": "使用乘方的国内电商商家",
+      "period": "2026-08-01 00:00起下线",
+      "review": "下线公告已核对 · 不计入当前扶持",
+      "policy": {
+        "state": "withdrawn",
+        "status": "已下线 · 归档记录",
+        "dates": [
+          {
+            "label": "权益停止",
+            "value": "2026-08-01 00:00"
+          },
+          {
+            "label": "页面更新",
+            "value": "2026-08-02"
+          },
+          {
+            "label": "研究用途",
+            "value": "历史成本变化，不作为当前优惠"
+          }
+        ],
+        "body": "已核对页首调整公告；历史规则后半段及适用范围表未完整读取。",
+        "attachments": "历史全文待补；不影响已明确的下线事实。",
+        "eligibility": [
+          "仅研究实际使用过该减免的国内订单和商家；不能假定所有广告主曾享受。"
+        ],
+        "benefits": [
+          "无现行减免权益；历史优惠不继续计入当前经营测算。"
+        ],
+        "priority": "归档影响",
+        "fully_verified": false
+      },
+      "facts": [
+        {
+          "text": "官方页首明确，2026年8月1日零点起使用乘方产生的相关成交订单不再享受该电商技术服务费减免。",
+          "source_id": "qianchuan-withdrawn",
+          "locator": "页首政策调整公告",
+          "quote": ""
+        }
+      ],
+      "impact": "曾享受减免的商家需要按实际结算重核成本结构。技术服务费、达人佣金、广告费用与退款应分开，不能把费率变化当作广告单价变化。",
+      "hypothesis": "若实际净贡献下降且企业愿意寻找增量渠道，可研究腾讯渠道适配；需先取得企业适用情况和经营目标，不能只凭政策下线判断商机。",
+      "actions": [
+        "先确认该客户及相关国内订单是否曾适用减免，核对停止前后同口径的实际结算。",
+        "让电商与财务负责人分拆技术服务费、佣金、媒体费用和退款；确认成本变化是否影响获客或复购目标。",
+        "只有确认新增渠道需求和承接条件后，再讨论腾讯广告验证方案。"
+      ],
+      "limits": [
+        "历史原文仍保留减免条款，但页首下线公告优先；不得展示为目前可领取。",
+        "未读取完整历史表格；仅使用清晰的下线事实。"
+      ],
+      "companies": [],
+      "company_context": ""
+    }
+  ],
+  "retail": [
+    {
+      "id": "food",
+      "name": "食品消费",
+      "source_category": "粮油、食品类",
+      "monthly_sales_100m": 2224.0,
+      "monthly_yoy": 6.7,
+      "ytd_sales_100m": 17738.0,
+      "ytd_yoy": 6.8,
+      "period_end": "2026-09-30",
+      "period": "2026年1—9月",
+      "published_at": "2026-10-19",
+      "source_id": "nbs-retail",
+      "evidence_status": "verified",
+      "evidence_text": "其中：粮油、食品类 | 2224 | 6.7 | 17738 | 6.8",
+      "action": "讨论产品内容、节日活动与复购运营；先核对毛利和履约范围。",
+      "scope": "中国大陆·限额以上单位商品零售",
+      "method": "官方五列表格逐行提取"
+    },
+    {
+      "id": "beverages",
+      "name": "饮料",
+      "source_category": "饮料类",
+      "monthly_sales_100m": 304.0,
+      "monthly_yoy": 5.0,
+      "ytd_sales_100m": 2444.0,
+      "ytd_yoy": 5.4,
+      "period_end": "2026-09-30",
+      "period": "2026年1—9月",
+      "published_at": "2026-10-19",
+      "source_id": "nbs-retail",
+      "evidence_status": "verified",
+      "evidence_text": "饮料类 | 304 | 5.0 | 2444 | 5.4",
+      "action": "讨论场景内容与区域铺货活动；先核对目标区域和销售渠道。",
+      "scope": "中国大陆·限额以上单位商品零售",
+      "method": "官方五列表格逐行提取"
+    },
+    {
+      "id": "apparel",
+      "name": "服饰鞋帽",
+      "source_category": "服装、鞋帽、针纺织品类",
+      "monthly_sales_100m": 1213.0,
+      "monthly_yoy": 1.2,
+      "ytd_sales_100m": 10824.0,
+      "ytd_yoy": 4.6,
+      "period_end": "2026-09-30",
+      "period": "2026年1—9月",
+      "published_at": "2026-10-19",
+      "source_id": "nbs-retail",
+      "evidence_status": "verified",
+      "evidence_text": "服装、鞋帽、针纺织品类 | 1213 | 1.2 | 10824 | 4.6",
+      "action": "讨论季节新品内容与私域承接；先确认库存与客群。",
+      "scope": "中国大陆·限额以上单位商品零售",
+      "method": "官方五列表格逐行提取"
+    },
+    {
+      "id": "beauty",
+      "name": "美妆个护",
+      "source_category": "化妆品类",
+      "monthly_sales_100m": 390.0,
+      "monthly_yoy": 5.4,
+      "ytd_sales_100m": 3491.0,
+      "ytd_yoy": 6.1,
+      "period_end": "2026-09-30",
+      "period": "2026年1—9月",
+      "published_at": "2026-10-19",
+      "source_id": "nbs-retail",
+      "evidence_status": "verified",
+      "evidence_text": "化妆品类 | 390 | 5.4 | 3491 | 6.1",
+      "action": "讨论新品内容、复购运营与小程序承接；先确认品牌目标与实际投放需求。",
+      "scope": "中国大陆·限额以上单位商品零售",
+      "method": "官方五列表格逐行提取"
+    },
+    {
+      "id": "jewelry",
+      "name": "珠宝饰品",
+      "source_category": "金银珠宝类",
+      "monthly_sales_100m": 258.0,
+      "monthly_yoy": -9.6,
+      "ytd_sales_100m": 2620.0,
+      "ytd_yoy": -2.4,
+      "period_end": "2026-09-30",
+      "period": "2026年1—9月",
+      "published_at": "2026-10-19",
+      "source_id": "nbs-retail",
+      "evidence_status": "verified",
+      "evidence_text": "金银珠宝类 | 258 | -9.6 | 2620 | -2.4",
+      "action": "讨论品牌信任、节日礼赠与门店预约；先核对客单和线索质量。",
+      "scope": "中国大陆·限额以上单位商品零售",
+      "method": "官方五列表格逐行提取"
+    },
+    {
+      "id": "daily",
+      "name": "日用消费",
+      "source_category": "日用品类",
+      "monthly_sales_100m": 748.0,
+      "monthly_yoy": 4.1,
+      "ytd_sales_100m": 6447.0,
+      "ytd_yoy": 3.8,
+      "period_end": "2026-09-30",
+      "period": "2026年1—9月",
+      "published_at": "2026-10-19",
+      "source_id": "nbs-retail",
+      "evidence_status": "verified",
+      "evidence_text": "日用品类 | 748 | 4.1 | 6447 | 3.8",
+      "action": "讨论产品演示与复购承接；先确认品类、复购周期和获客成本约束。",
+      "scope": "中国大陆·限额以上单位商品零售",
+      "method": "官方五列表格逐行提取"
+    },
+    {
+      "id": "sports",
+      "name": "运动娱乐用品",
+      "source_category": "体育、娱乐用品类",
+      "monthly_sales_100m": 143.0,
+      "monthly_yoy": -1.1,
+      "ytd_sales_100m": 1281.0,
+      "ytd_yoy": -3.4,
+      "period_end": "2026-09-30",
+      "period": "2026年1—9月",
+      "published_at": "2026-10-19",
+      "source_id": "nbs-retail",
+      "evidence_status": "verified",
+      "evidence_text": "体育、娱乐用品类 | 143 | -1.1 | 1281 | -3.4",
+      "action": "讨论兴趣内容与新品触达；先验证具体细分品类的需求。",
+      "scope": "中国大陆·限额以上单位商品零售",
+      "method": "官方五列表格逐行提取"
+    },
+    {
+      "id": "appliances",
+      "name": "家用电器",
+      "source_category": "家用电器和音像器材类",
+      "monthly_sales_100m": 881.0,
+      "monthly_yoy": 1.9,
+      "ytd_sales_100m": 8105.0,
+      "ytd_yoy": -4.9,
+      "period_end": "2026-09-30",
+      "period": "2026年1—9月",
+      "published_at": "2026-10-19",
+      "source_id": "nbs-retail",
+      "evidence_status": "verified",
+      "evidence_text": "家用电器和音像器材类 | 881 | 1.9 | 8105 | -4.9",
+      "action": "讨论换新活动与本地门店线索；先核对品类、区域和活动承接能力。",
+      "scope": "中国大陆·限额以上单位商品零售",
+      "method": "官方五列表格逐行提取"
+    },
+    {
+      "id": "office",
+      "name": "文化办公",
+      "source_category": "文化办公用品类",
+      "monthly_sales_100m": 474.0,
+      "monthly_yoy": 7.9,
+      "ytd_sales_100m": 3785.0,
+      "ytd_yoy": 6.2,
+      "period_end": "2026-09-30",
+      "period": "2026年1—9月",
+      "published_at": "2026-10-19",
+      "source_id": "nbs-retail",
+      "evidence_status": "verified",
+      "evidence_text": "文化办公用品类 | 474 | 7.9 | 3785 | 6.2",
+      "action": "讨论开学与办公场景内容；先核对采购周期和企业/个人客群。",
+      "scope": "中国大陆·限额以上单位商品零售",
+      "method": "官方五列表格逐行提取"
+    },
+    {
+      "id": "furniture",
+      "name": "家居家具",
+      "source_category": "家具类",
+      "monthly_sales_100m": 161.0,
+      "monthly_yoy": -3.0,
+      "ytd_sales_100m": 1306.0,
+      "ytd_yoy": -4.7,
+      "period_end": "2026-09-30",
+      "period": "2026年1—9月",
+      "published_at": "2026-10-19",
+      "source_id": "nbs-retail",
+      "evidence_status": "verified",
+      "evidence_text": "家具类 | 161 | -3.0 | 1306 | -4.7",
+      "action": "讨论家装内容与到店线索；先核对门店覆盖和服务半径。",
+      "scope": "中国大陆·限额以上单位商品零售",
+      "method": "官方五列表格逐行提取"
+    },
+    {
+      "id": "communications",
+      "name": "消费电子",
+      "source_category": "通讯器材类",
+      "monthly_sales_100m": 1062.0,
+      "monthly_yoy": 31.1,
+      "ytd_sales_100m": 8123.0,
+      "ytd_yoy": 18.1,
+      "period_end": "2026-09-30",
+      "period": "2026年1—9月",
+      "published_at": "2026-10-19",
+      "source_id": "nbs-retail",
+      "evidence_status": "verified",
+      "evidence_text": "通讯器材类 | 1062 | 31.1 | 8123 | 18.1",
+      "action": "讨论新品教育与换机人群触达；先确认新品周期与渠道销售目标。",
+      "scope": "中国大陆·限额以上单位商品零售",
+      "method": "官方五列表格逐行提取"
+    }
+  ],
+  "gaps": [
+    {
+      "label": "竞媒真实投放消耗",
+      "status": "未取得",
+      "detail": "公开研究估算不等于抖音、小红书的账户真实消耗；不生成虚构预算。"
+    },
+    {
+      "label": "扶持条款核验",
+      "status": "2 条线索 / 0 条完整核验",
+      "detail": "双十一后台奖励门槛待确认；众测权益截止未披露。已读条款可以研究，不等于完整且可兑现的扶持。"
+    },
+    {
+      "label": "正文与附件",
+      "status": "逐条标注",
+      "detail": "美妆公告正文与类目表已核对；品牌清单受限待补。其他规则图片、表格、引用细则及报告图表按来源说明覆盖范围。"
+    }
+  ],
+  "policy_audit": [
+    {
+      "signal_id": "xhs-beauty-qualification",
+      "title": "美妆品牌授权要求调整",
+      "category": "规则变更",
+      "source_ids": [
+        "xhs-beauty",
+        "xhs-brand"
+      ],
+      "state": "current_entry",
+      "status": "官方当前入口列示 · 未注明终止日",
+      "dates": [
+        {
+          "label": "公告生效",
+          "value": "2026-09-28"
+        },
+        {
+          "label": "正文：停止新增采销凭证",
+          "value": "2026-09-24起"
+        },
+        {
+          "label": "正文：历史资质开始清理",
+          "value": "2026-10-10起"
+        },
+        {
+          "label": "终止日期",
+          "value": "未注明；以官方后续规则为准"
+        }
+      ],
+      "body": "公告主文和适用类目表已核对完整；引用的品牌治理规则主文与材料表已读取。",
+      "attachments": "品牌资质管控清单受限，未确认具体品牌；授权模板待补。",
+      "eligibility": [
+        "按公告适用类目判断，不把所有美妆相关经营者一概认定受影响。",
+        "美妆个护商品品牌资质不再以采销凭证替代品牌授权；店铺主体、授权链及有效期需逐项核对。"
+      ],
+      "benefits": [
+        "属于资质治理要求，未列示现金、流量或广告补贴。"
+      ],
+      "priority": "优先核对",
+      "fully_verified": false
+    },
+    {
+      "signal_id": "douyin-double11-support",
+      "title": "双十一垂类直播间扶持与参与成本",
+      "category": "扶持政策",
+      "source_ids": [
+        "douyin-double11"
+      ],
+      "state": "in_period",
+      "status": "截至资料核对日，处于公告活动期",
+      "dates": [
+        {
+          "label": "报名时间",
+          "value": "2026-09-14 14:00—2026-11-11 23:59:59"
+        },
+        {
+          "label": "活动时间",
+          "value": "2026-10-15 00:00—2026-11-11 23:59:59"
+        },
+        {
+          "label": "价格校验期",
+          "value": "2026-08-31—2026-11-11"
+        }
+      ],
+      "body": "主文已分段读取至4.3.4；基础准入、商家让利、公开扶持条件与资格取消规则已核对。",
+      "attachments": "示意图、引用手册待补；后台具体奖励门槛、金额和协议未取得。",
+      "eligibility": [
+        "国内小店商家及商品需满足相应基础条件；商家体验分门槛、商品质量与服务要求按原文核对。",
+        "垂类重点直播间面向符合门槛的商家/达人，具体奖励门槛以后台为准。",
+        "立减折扣或一件直降由商家出资；开播前需按要求确认场次与备货。"
+      ],
+      "benefits": [
+        "符合条件者有机会获得流量、补贴及会场资源；并非报名即可领取，也未披露统一保证金额。"
+      ],
+      "priority": "条件研究",
+      "fully_verified": false
+    },
+    {
+      "signal_id": "xhs-crowd-first-order",
+      "title": "消费品众测首单减免：先确认资格与期限",
+      "category": "扶持政策",
+      "source_ids": [
+        "xhs-crowd"
+      ],
+      "state": "needs_review",
+      "status": "官方当前列示 · 截止未披露，适用前确认",
+      "dates": [
+        {
+          "label": "权益开始",
+          "value": "2025-10-14"
+        },
+        {
+          "label": "页面显示时间",
+          "value": "2026-10-23；未标明该时间为发布或更新"
+        },
+        {
+          "label": "截止日期",
+          "value": "未披露；不能保证目前仍可领取"
+        }
+      ],
+      "body": "可见文字读取到FAQ Q10及案例目录；合作门槛、首单定义、取消失效和服务费条款已核对。",
+      "attachments": "流程图、案例图片待补；需在正式下单前核对权益是否继续开放。",
+      "eligibility": [
+        "单任务合作金额至少1万元；按关联品牌是否首次创建众测订单判断资格。",
+        "品牌自主下单或代理代下单均按同一品牌历史计算；一旦订单取消或未完成，后续下单不再保留首单优惠资格。"
+      ],
+      "benefits": [
+        "当前说明列示新客首单免10%平台服务费，适用于两种众测结算方式；不是全部广告投放金额打九折。"
+      ],
+      "priority": "条件研究",
+      "fully_verified": false
+    },
+    {
+      "signal_id": "ocean-cost-cycle",
+      "title": "千川成本保障回传周期调整",
+      "category": "规则变更",
+      "source_ids": [
+        "qianchuan-full",
+        "ocean-notice"
+      ],
+      "state": "current_entry",
+      "status": "官方入口版本已核对 · 全部保障条件待补",
+      "dates": [
+        {
+          "label": "相关公告更新",
+          "value": "2026-09-16"
+        },
+        {
+          "label": "全域规则版本",
+          "value": "2026-09-17"
+        },
+        {
+          "label": "终止日期",
+          "value": "未注明；以官方后续规则为准"
+        }
+      ],
+      "body": "公告关键文字及全域规则第六条回传/赠款说明已核对；全部表格与特别说明未完整读取。",
+      "attachments": "全域规则剩余表格、特别说明、FAQ及乘方细则待补。",
+      "eligibility": [
+        "需按具体投放产品、ROI优化目标和计划判断保障资格。"
+      ],
+      "benefits": [
+        "成本保障按条件以赠款发放，不等同无条件现金赔付。"
+      ],
+      "priority": "条件研究",
+      "fully_verified": false
+    },
+    {
+      "signal_id": "xhs-auth-change",
+      "title": "小红书专业号认证材料要求调整",
+      "category": "规则变更",
+      "source_ids": [
+        "xhs-auth"
+      ],
+      "state": "current_entry",
+      "status": "官方当前入口列示 · 非10月新增限制",
+      "dates": [
+        {
+          "label": "相关条款执行",
+          "value": "2026-06-30"
+        },
+        {
+          "label": "页面更新",
+          "value": "2026-10-12"
+        },
+        {
+          "label": "终止日期",
+          "value": "未注明；以官方后续规则为准"
+        }
+      ],
+      "body": "已核对所用大陆主体认证条款；全部图片、行业要求和附件尚未完整验收。",
+      "attachments": "图片、全部行业要求与附件待补。",
+      "eligibility": [
+        "行业资质与申请主体、经营范围、有效期匹配。"
+      ],
+      "benefits": [
+        "认证规则，不是现金或流量扶持。"
+      ],
+      "priority": "条件研究",
+      "fully_verified": false
+    },
+    {
+      "signal_id": "qianchuan-fee-withdrawal",
+      "title": "乘方服务费减免已下线，重核经营成本",
+      "category": "政策下线",
+      "source_ids": [
+        "qianchuan-withdrawn"
+      ],
+      "state": "withdrawn",
+      "status": "已下线 · 归档记录",
+      "dates": [
+        {
+          "label": "权益停止",
+          "value": "2026-08-01 00:00"
+        },
+        {
+          "label": "页面更新",
+          "value": "2026-08-02"
+        },
+        {
+          "label": "研究用途",
+          "value": "历史成本变化，不作为当前优惠"
+        }
+      ],
+      "body": "已核对页首调整公告；历史规则后半段及适用范围表未完整读取。",
+      "attachments": "历史全文待补；不影响已明确的下线事实。",
+      "eligibility": [
+        "仅研究实际使用过该减免的国内订单和商家；不能假定所有广告主曾享受。"
+      ],
+      "benefits": [
+        "无现行减免权益；历史优惠不继续计入当前经营测算。"
+      ],
+      "priority": "归档影响",
+      "fully_verified": false
+    }
+  ],
+  "support_leads": [
+    "douyin-double11-support",
+    "xhs-crowd-first-order"
+  ],
+  "excluded_policy_candidates": [
+    {
+      "title": "新商家必看 11大权益助力双11生意爆发",
+      "url": "https://school.jinritemai.com/doudian/web/articlev0/aJs8jxUdHwrC",
+      "reason": "2026-10-15官方页面正文为长图，未取得完整可读条款；不根据标题或宣传数字生成扶持政策。",
+      "evidence": [
+        {
+          "file": "douyin-newmerchant-browser.txt",
+          "sha256": "7f5919bb54750bd9a4aca8ac83f2c7b9ac5bc358c8a875dbd164ae289a818ed6"
+        }
+      ]
+    },
+    {
+      "title": "蒲公英双十一商业笔记额度限时开放",
+      "url": "https://pages.xiaohongshu.com/picasso_pages/eevee/double11_quota?fullscreen=true&naviHidden=yes&useNativeChannel=yes",
+      "reason": "公开文字写9月27日—11月14日，未标年份；不能作为2026年现行活动。",
+      "evidence": [
+        {
+          "file": "xhs-quota.txt",
+          "sha256": "cb387f24fc5e41ead913c8a1703cb1324e0b3612a639301ee3f474dc8a988c3e"
+        }
+      ]
+    },
+    {
+      "title": "行业专区（成长品牌）",
+      "url": "https://ad.xiaohongshu.com/next_help/docs/720037028bd482b32fbdfe4458a85b97",
+      "reason": "官方目录包含多个行业营销指南；指南目录不是专项补贴或扶持承诺，不纳入已核实政策展示。",
+      "evidence": [
+        {
+          "file": "xhs-growth-browser.txt",
+          "sha256": "64767a4fa8e321775e13d562ba84e8cf1d5c764441c93408e0e556772330f6a0"
+        }
+      ]
+    }
+  ],
+  "opportunity_briefs": [
+    {
+      "signal_id": "xhs-beauty-qualification",
+      "industry": "美妆个护",
+      "priority": "优先核对",
+      "question": "品牌自营与授权渠道是否出现新的经营目标",
+      "action": "核对店铺范围、授权链与微信承接基础"
+    },
+    {
+      "signal_id": "xhs-crowd-first-order",
+      "industry": "消费品内容验证",
+      "priority": "条件研究",
+      "question": "测品、测内容后是否需要新增受众与复购承接",
+      "action": "确认首单资格、权益期限及内容使用授权"
+    },
+    {
+      "signal_id": "douyin-double11-support",
+      "industry": "零售直播商家",
+      "priority": "条件研究",
+      "question": "大促扶持后，是否仍有净贡献与复购增长空间",
+      "action": "核对实际权益、促销成本、库存与履约"
+    }
+  ],
+  "policy_access_note": "只使用此前已核对记录。本轮不再访问受限品牌清单；自动采集因robots未获明确允许而停止的来源，采用已保存的正常公开浏览记录，不宣称自动采集成功。"
+}

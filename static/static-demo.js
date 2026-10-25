@@ -1,5 +1,6 @@
 'use strict';
 function renderSnapshotUpdates(data){
+ if(state.signalData)return MarketRadar.renderEvidence();
  let sources=data.sources.filter(s=>s.id.startsWith('skincare-disclosure-'));
  if(state.materialCompany)sources=sources.filter(s=>s.company_id===state.materialCompany);
  if(state.q){const q=state.q.toLowerCase();sources=sources.filter(s=>(s.title+' '+data.evidence.filter(e=>e.source_id===s.id).map(e=>e.title+' '+e.text).join(' ')).toLowerCase().includes(q));}
