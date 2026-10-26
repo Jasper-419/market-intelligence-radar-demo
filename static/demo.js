@@ -6,34 +6,73 @@ const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&
 const num=(v,d=1)=>v==null||!Number.isFinite(Number(v))?'—':Number(v).toLocaleString('zh-CN',{minimumFractionDigits:d,maximumFractionDigits:d});
 const pct=(v,d=2)=>v==null?'—':(v>0?'+':'')+num(v,d)+'%';
 const stamp=v=>{if(!v)return '尚未检查';const d=new Date(typeof v==='number'?v*1000:v);return Number.isNaN(d.valueOf())?'时间待核对':d.toLocaleString('zh-CN',{timeZone:'Asia/Shanghai',hour12:false});};
-const state={view:'case',radarView:MarketRadar.trackFromHash(location.hash.slice(1)),signalData:null,caseCompany:'',skincareCase:null,materialCompany:'',q:''};
-let lastFocus,toastTimer,epoch=0;
+const state={view:'case',radarView:MarketRadar.trackFromHash(location.hash.slice(1).split('?')[0]),signalData:null,caseCompany:'',skincareCase:null,materialCompany:'',q:''};
+let lastFocus,toastTimer,epoch=0,lastHandledHash='';
 const title=(name,note,actions='')=>`<div class="page-title"><div><h1>${esc(name)}</h1><p>${esc(note)}</p></div><div class="actions">${actions}</div></div>`;
 async function api(url,options){if(STATIC_VIEW){if(options?.method)throw Error('当前为已核对资料的展示快照');const load=async(path,version)=>{const r=await fetch(path+(version?'?v='+version:''));if(!r.ok)throw Error('演示资料未能加载，请刷新页面');return r.json();};if(url==='/api/cases/skincare')return snapshotRequest??=load('data/case.json',document.documentElement.dataset.caseVersion).catch(e=>{snapshotRequest=null;throw e;});if(url==='/api/business-signals')return signalRequest??=load('data/business-signals.json',document.documentElement.dataset.signalsVersion).catch(e=>{signalRequest=null;throw e;});throw Error('当前为已核对资料的展示快照');}const r=await fetch(url,options),body=await r.json();if(!r.ok)throw Error(typeof body.detail==='string'?body.detail:'读取失败，请稍后重试');return body;}
 function toast(message){$('#toast').textContent=message;$('#toast').classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>$('#toast').classList.remove('show'),4500);}
-function openDrawer(html){lastFocus=document.activeElement;if($('#drawer').open)$('#drawer').close();$('#drawer-content').innerHTML=html;$('#drawer').showModal();$('#drawer').scrollTop=0;if(window.gsap&&!matchMedia('(prefers-reduced-motion: reduce)').matches)gsap.fromTo('#drawer',{x:14,opacity:.8},{x:0,opacity:1,duration:.2,clearProps:'all'});}
-function sourceButtons(source,page){return `<div class="demo-source-buttons">${source.snapshot_url?`<a class="button" href="${esc(source.snapshot_url)}${page?'#page='+page:''}" target="_blank" rel="noopener">已保存原件 ↗</a>`:''}<a class="button" href="${esc(source.url)}${page?'#page='+page:''}" target="_blank" rel="noopener noreferrer">来源站 PDF${page?' · P'+page:''} ↗</a></div>`;}
-function showEvidence(id){const d=state.skincareCase,e=d.evidence.find(e=>e.id===id);if(!e)return;const s=d.sources.find(s=>s.id===e.source_id);openDrawer(`<h2 id="detail-title">${esc(e.title)}</h2><p class="notice">${e.quality==='validated_table'?'合并财务表自动校验':e.quality==='validated_channel_table'?'渠道表自动校验':e.quality==='text_excerpt'?'原文经营线索 · 解读待业务核对':'人工核对的关键摘录'}</p><div class="details-grid"><div><label>披露日期</label><strong>${esc(s.published_at||'准确日期未标明')}</strong></div><div><label>原始位置</label><strong>PDF 第 ${e.page} 页 / ${s.pages} 页</strong></div><div><label>统计 / 材料期间</label><strong>${esc(s.period)}</strong></div><div><label>采集时间</label><strong>${stamp(s.fetched_at)}</strong></div></div><div class="evidence-box">${esc(e.text)}</div><p class="quality-note">${esc(e.scope)}</p>${sourceButtons(s,e.page)}<details class="demo-fingerprint"><summary>查看文件指纹与提取范围</summary><p>${esc(s.note)}<br>SHA-256：${esc(s.sha256)}<br>文件版本：${s.document_version||'人工核对基线'}</p></details>`);}
-function showMaterial(id){const d=state.skincareCase,s=d.sources.find(s=>s.id===id);if(!s)return;const quotes=d.evidence.filter(e=>e.source_id===id);openDrawer(`<h2 id="detail-title">${esc(s.title)}</h2><p class="notice">${esc(s.publisher||s.distribution)} · 披露 ${esc(s.published_at||'日期未标明')}<br>期间：${esc(s.period)} · 采集 ${stamp(s.fetched_at)}</p>${s.review_reason?`<p class="quality-note">${esc(s.review_reason)}</p>`:''}${sourceButtons(s)}<h3 class="demo-drawer-heading">本案使用的原文与指标</h3><div class="demo-material-excerpts">${quotes.map(e=>`<article><button class="text-button" data-evidence="${esc(e.id)}">${esc(e.title)} · P${e.page} →</button><p>${esc(e.text.slice(0,180))}${e.text.length>180?'…':''}</p></article>`).join('')||'<p class="muted">正文已保存；关键指标尚不能可靠提取，暂不替换已有数据。</p>'}</div><details class="demo-fingerprint"><summary>文件指纹与提取范围</summary><p>${esc(s.note)}<br>SHA-256：${esc(s.sha256)}</p></details>`);}
-function showFinance(){const c=caseCompany();openDrawer(`<h2 id="detail-title">${esc(c.name)} · 财务原值</h2><p class="notice">${esc(c.finance_period||'2026年上半年')} 对比上年同期 · 人民币元 · 集团合并口径</p><div class="table-wrap"><table class="case-finance-table"><thead><tr><th>指标</th><th>本期</th><th>上年同期</th><th>同比</th></tr></thead><tbody>${[['营收',c.revenue,c.revenue_yoy],['销售费用',c.selling,c.selling_yoy]].map(([label,values,yoy])=>`<tr><td>${label}</td><td>${num(values[0],2)}</td><td>${num(values[1],2)}</td><td>${pct(yoy)}</td></tr>`).join('')}</tbody></table></div><p class="quality-note">${esc(c.scope)}</p><button class="text-button" data-evidence="${esc(c.financial_evidence)}">查看财务表出处 →</button>`);}
+function openDrawer(html){const drawer=$('#drawer');if(!drawer.open)lastFocus=document.activeElement;$('#drawer-content').innerHTML=html;if(!drawer.open)drawer.showModal();drawer.scrollTop=0;$('#close-drawer').focus({preventScroll:true});}
+function sourceButtons(source,page){return `<div class="demo-source-buttons">${source.snapshot_url?`<a class="button" href="${esc(source.snapshot_url)}${page?'#page='+page:''}" target="_blank" rel="noopener">已保存原件</a>`:''}<a class="button" href="${esc(source.url)}${page?'#page='+page:''}" target="_blank" rel="noopener noreferrer">来源站 PDF${page?'（第'+page+'页）':''}</a></div>`;}
+function showEvidence(id){const d=state.skincareCase,e=d.evidence.find(e=>e.id===id);if(!e)return;const s=d.sources.find(s=>s.id===e.source_id);openDrawer(`<h2 id="detail-title">${esc(e.title)}</h2><p class="notice">${e.quality==='validated_table'?'合并财务表自动校验':e.quality==='validated_channel_table'?'渠道表自动校验':e.quality==='text_excerpt'?'原文经营线索，解读待业务核对':'人工核对的关键摘录'}</p><div class="details-grid"><div><label>披露日期</label><strong>${esc(s.published_at||'准确日期未标明')}</strong></div><div><label>原始位置</label><strong>PDF 第 ${e.page} 页 / ${s.pages} 页</strong></div><div><label>统计 / 材料期间</label><strong>${esc(s.period)}</strong></div><div><label>采集时间</label><strong>${stamp(s.fetched_at)}</strong></div></div><div class="evidence-box">${esc(e.text)}</div><p class="quality-note">${esc(e.scope)}</p>${sourceButtons(s,e.page)}<details class="demo-fingerprint"><summary>查看文件指纹与提取范围</summary><p>${esc(s.note)}<br>SHA-256：${esc(s.sha256)}<br>文件版本：${s.document_version||'人工核对基线'}</p></details>`);}
+function showMaterial(id){const d=state.skincareCase,s=d.sources.find(s=>s.id===id);if(!s)return;const quotes=d.evidence.filter(e=>e.source_id===id);openDrawer(`<h2 id="detail-title">${esc(s.title)}</h2><p class="notice">${esc(s.publisher||s.distribution)}；披露 ${esc(s.published_at||'日期未标明')}<br>期间：${esc(s.period)}；采集 ${stamp(s.fetched_at)}</p>${s.review_reason?`<p class="quality-note">${esc(s.review_reason)}</p>`:''}${sourceButtons(s)}<h3 class="demo-drawer-heading">本案使用的原文与指标</h3><div class="demo-material-excerpts">${quotes.map(e=>`<article><button class="text-button" data-evidence="${esc(e.id)}">${esc(e.title)}（第${e.page}页）</button><p>${esc(e.text.slice(0,180))}${e.text.length>180?'…':''}</p></article>`).join('')||'<p class="muted">正文已保存；关键指标尚不能可靠提取，暂不替换已有数据。</p>'}</div><details class="demo-fingerprint"><summary>文件指纹与提取范围</summary><p>${esc(s.note)}<br>SHA-256：${esc(s.sha256)}</p></details>`);}
+function showFinance(){const c=caseCompany();openDrawer(`<h2 id="detail-title">${esc(c.name)}的财务原值</h2><p class="notice">${esc(c.finance_period||'2026年上半年')} 对比上年同期；人民币元；集团合并口径</p><div class="table-wrap"><table class="case-finance-table"><thead><tr><th>指标</th><th>本期</th><th>上年同期</th><th>同比</th></tr></thead><tbody>${[['营收',c.revenue,c.revenue_yoy],['销售费用',c.selling,c.selling_yoy]].map(([label,values,yoy])=>`<tr><td>${label}</td><td data-label="本期">${num(values[0],2)}</td><td data-label="上年同期">${num(values[1],2)}</td><td data-label="同比">${pct(yoy)}</td></tr>`).join('')}</tbody></table></div><p class="quality-note">${esc(c.scope)}</p><button class="text-button" data-evidence="${esc(c.financial_evidence)}">查看财务表出处</button>`);}
 function route(hash){return ({opportunities:'case',companies:'case',overview:'case',policies:'case',monitoring:'updates',sources:'updates',search:'updates'})[hash]||(['case','understanding','updates'].includes(hash)?hash:'case');}
-async function render(){const current=++epoch;try{const [data,signals]=await Promise.all([api('/api/cases/skincare'),api('/api/business-signals')]);if(current!==epoch)return;state.skincareCase=data;state.signalData=signals;document.querySelectorAll('.nav').forEach(n=>{const active=route(n.dataset.view)===state.view;n.classList.toggle('active',active);n.setAttribute('aria-current',active?'page':'false');});$('#main').innerHTML=state.view==='understanding'?renderSolution(data):state.view==='updates'?MarketRadar.renderEvidence():MarketRadar.render();}catch(e){toast(e.message);$('#main').innerHTML=`<h1>暂时无法读取资料</h1><p class="notice">${esc(e.message)}</p><button class="button" data-reload>重新读取</button>`;}}
+async function render(options={}){
+ const current=++epoch;$('#main').setAttribute('aria-busy','true');
+ try{
+  const [data,signals]=await Promise.all([api('/api/cases/skincare'),api('/api/business-signals')]);if(current!==epoch)return;
+  state.skincareCase=data;state.signalData=signals;
+  document.querySelectorAll('.nav').forEach(n=>{const active=route(n.dataset.view)===state.view;n.classList.toggle('active',active);if(active)n.setAttribute('aria-current','page');else n.removeAttribute('aria-current');});
+  $('#main').innerHTML=state.view==='understanding'?renderSolution(data):state.view==='updates'?MarketRadar.renderEvidence():MarketRadar.render();
+  $('#main').setAttribute('aria-busy','false');
+  const heading=$('#main h1');if(heading)heading.tabIndex=-1;
+  const status=$('#material-results-title')||$('#radar-results-title')||$('#case-chain-title')||heading;
+  $('#view-status').textContent=status?.textContent||'资料已显示';
+  if(options.focusId)document.getElementById(options.focusId)?.focus({preventScroll:true});
+  if(options.scroll==='detail')$('#radar-detail')?.scrollIntoView({block:'start'});
+  else if(options.scroll==='top')window.scrollTo({top:0,behavior:'instant'});
+ }catch(e){if(current!==epoch)return;$('#main').setAttribute('aria-busy','false');toast(e.message);$('#main').innerHTML=`<section class="load-error"><h1 tabindex="-1">暂时无法读取资料</h1><p class="notice">${esc(e.message)}</p><button type="button" class="button" data-reload>重新读取</button></section>`;}
+}
 window.renderRadarApp=render;
-async function navigate(view){state.view=route(view);if(state.view==='case')state.radarView=MarketRadar.trackFromHash(view);location.hash=['case','companies','policies','opportunities','overview'].includes(view)?view:state.view;await render();window.scrollTo({top:0,behavior:'instant'});}
-document.addEventListener('click',async event=>{const b=event.target.closest('button');if(!b)return;try{
- if(await MarketRadar.handleClick(b))return;
- if(b.dataset.view)await navigate(b.dataset.view);
- else if(b.dataset.evidence)showEvidence(b.dataset.evidence);
- else if(b.dataset.material)showMaterial(b.dataset.material);
- else if(b.hasAttribute('data-finance'))showFinance();
- else if(b.dataset.caseCompany){state.caseCompany=b.dataset.caseCompany;await render();if(matchMedia('(max-width:780px)').matches)$('#case-chain').scrollIntoView({block:'start'});}
- else if(b.hasAttribute('data-refresh-case')){const r=await api('/api/cases/skincare/refresh',{method:'POST',headers:{'Content-Type':'application/json'},body:'{}'});toast(r.message);await render();}
- else if(b.hasAttribute('data-download')){const only=b.dataset.download==='company',text=caseBriefText(only),url=URL.createObjectURL(new Blob([text],{type:'text/markdown;charset=utf-8'})),a=document.createElement('a');a.href=url;a.download=(only?caseCompany().name:'国货功效护肤')+'-机会跟进简报.md';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);}
- else if(b.hasAttribute('data-reload'))await render();
-}catch(e){toast(e.message);}});
+async function applyLocation(options={}){
+ const [page,query='']=location.hash.slice(1).split('?');lastHandledHash=location.hash;
+ state.view=route(page);state.radarView=MarketRadar.trackFromHash(page);MarketRadar.restore(new URLSearchParams(query));
+ await render(options);
+}
+async function navigate(view,options={}){
+ const page=['case','companies','policies','opportunities','overview','understanding','updates'].includes(view)?view:route(view),query=options.params?.toString();
+ const hash='#'+page+(query?'?'+query:'');if(location.hash!==hash)history.pushState(null,'',hash);
+ await applyLocation({scroll:options.scroll||'top',focusId:options.focusId});
+}
+document.addEventListener('click',async event=>{
+ const b=event.target.closest('button');if(!b)return;
+ try{
+  if(await MarketRadar.handleClick(b))return;
+  if(b.dataset.view)await navigate(b.dataset.view);
+  else if(b.dataset.evidence)showEvidence(b.dataset.evidence);
+  else if(b.dataset.material)showMaterial(b.dataset.material);
+  else if(b.hasAttribute('data-finance'))showFinance();
+  else if(b.dataset.caseCompany){state.caseCompany=b.dataset.caseCompany;await navigate('case',{params:MarketRadar.params(),focusId:'case-chain-title',scroll:'preserve'});}
+  else if(b.hasAttribute('data-refresh-case')){const r=await api('/api/cases/skincare/refresh',{method:'POST',headers:{'Content-Type':'application/json'},body:'{}'});toast(r.message);await render();}
+  else if(b.hasAttribute('data-download')){const only=b.dataset.download==='company',text=caseBriefText(only),url=URL.createObjectURL(new Blob([text],{type:'text/markdown;charset=utf-8'})),a=document.createElement('a');a.href=url;a.download=(only?caseCompany().name:'国货功效护肤')+'-机会跟进简报.md';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);}
+  else if(b.hasAttribute('data-reload'))await render();
+ }catch(e){toast(e.message);}
+});
 document.addEventListener('submit',event=>{if(MarketRadar.handleSubmit(event))return;if(event.target.id!=='material-search')return;event.preventDefault();state.q=$('#material-query').value.trim();state.materialCompany=$('#material-company').value;render();});
+document.addEventListener('change',async event=>{
+ if(event.target.id==='radar-signal-picker')await MarketRadar.selectSignal(event.target.value);
+ if(event.target.id==='case-company-picker'){state.caseCompany=event.target.value;await navigate('case',{params:MarketRadar.params(),focusId:'case-chain-title',scroll:'preserve'});}
+});
+document.addEventListener('keydown',event=>{
+ const tab=event.target.closest('[role="tab"][data-radar-tab]');if(!tab)return;
+ const tabs=[...document.querySelectorAll('[role="tab"][data-radar-tab]')],i=tabs.indexOf(tab);let next;
+ if(event.key==='ArrowRight')next=tabs[(i+1)%tabs.length];else if(event.key==='ArrowLeft')next=tabs[(i-1+tabs.length)%tabs.length];else if(event.key==='Home')next=tabs[0];else if(event.key==='End')next=tabs.at(-1);
+ if(next){event.preventDefault();next.click();}
+});
 $('#close-drawer').addEventListener('click',()=>$('#drawer').close());
 $('#drawer').addEventListener('close',()=>{if(lastFocus?.isConnected)lastFocus.focus({preventScroll:true});});
-window.addEventListener('hashchange',()=>{const hash=location.hash.slice(1),v=route(hash),track=MarketRadar.trackFromHash(hash);if(v!==state.view||(v==='case'&&track!==state.radarView)){state.view=v;if(v==='case')state.radarView=track;render();}});
-state.view=route(location.hash.slice(1));render();
+function historyChanged(){if(location.hash!==lastHandledHash)applyLocation({scroll:'top'});}
+window.addEventListener('hashchange',historyChanged);
+window.addEventListener('popstate',historyChanged);
+applyLocation();
 if(!STATIC_VIEW)setInterval(()=>{if(!document.hidden&&!$('#drawer').open&&!document.activeElement?.matches('input,select'))render();},15000);

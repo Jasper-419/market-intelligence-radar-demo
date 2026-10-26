@@ -1,0 +1,36 @@
+/* Hallmark v2.0.0 | shape: app screen | theme: brand | genre: modern-minimal | scope: app | redesign: full | built: project */
+/* Critique: evidence and next action lead; project type and blue data semantics retained; no borrowed marketing layout. */
+:root {
+  --ground: #f4f6f8;
+  --surface: #ffffff;
+  --raised: #ebeff3;
+  --text: #18212c;
+  --muted: #586574;
+  --border: #dce2e8;
+  --control: #7c8794;
+  --blue: #2259a8;
+  --selection: #eaf0f8;
+  --bar-muted: #7c8794;
+  --negative: #9b3434;
+  --warning: #80500e;
+  --warning-bg: #fbf4e7;
+  --mark: #e3edf9;
+  --scrim: rgba(24, 33, 44, .3);
+  --font: Geist, 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif;
+  --font-body: var(--font);
+  --font-display: var(--font);
+  --space-0: 0;
+  --space-2xs: 2px;
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 12px;
+  --space-lg: 16px;
+  --space-xl: 24px;
+  --space-2xl: 32px;
+  --space-3xl: 48px;
+  --space-4xl: 64px;
+  --radius: 6px;
+  --dur-short: 120ms;
+}
+@font-face { font-family: Geist; src: url('./vendor/geist-400.woff2') format('woff2'); font-weight: 400; font-display: swap; }
+@font-face { font-family: Geist; src: url('./vendor/geist-500.woff2') format('woff2'); font-weight: 500 700; font-display: swap; }
